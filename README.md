@@ -5,7 +5,9 @@
 [![Course](https://img.shields.io/badge/Course-MASET697%20Project%20Work-brightgreen)]()
 [![Review-1 Status](https://img.shields.io/badge/Review--1-Ready-success)]()
 [![Python](https://img.shields.io/badge/Python-3.11.9-blue.svg)]()
-[![Tests](https://img.shields.io/badge/Tests-37%2F37%20Passing-brightgreen)]()
+[![Tests](https://img.shields.io/badge/Tests-46%2F46%20Passing-brightgreen)]()
+[![Frontend](https://img.shields.io/badge/Frontend-React%2019%20%2B%20TypeScript-blue)]()
+[![Styling](https://img.shields.io/badge/CSS-Vanilla%20Tokens%20(No%20Tailwind)-orange)]()
 [![License](https://img.shields.io/badge/License-MIT-green.svg)]()
 
 FairLens is an academic research and engineering framework developed as an M.Tech project at the **School of Computer Science and Engineering (SCOPE), VIT Vellore**.
@@ -48,6 +50,7 @@ D:\fairlens\
 ├── docs/                               # Comprehensive project documentation
 │   ├── baseline_report.md              # Initial inspection & environment baseline
 │   ├── architecture.md                 # System components and data flow
+│   ├── frontend_architecture.md        # UI/UX, components, tokens, and REST contracts
 │   ├── data_dictionary.md              # Discovery and audit data models
 │   ├── testing_strategy.md             # Testing procedures and pass/fail ledger
 │   ├── phase_2_report.md               # Infrastructure and feasibility findings
@@ -61,6 +64,15 @@ D:\fairlens\
 │       ├── references.bib              # IEEE-compatible BibTeX database
 │       ├── research_gaps.md            # Critical analysis of gaps G1–G6
 │       └── phase_1_report.md           # Phase 1 verification audit & frozen scope
+├── frontend/                           # Research-Grade React 19 + TypeScript Frontend
+│   ├── index.html                      # HTML5 entry with accessible metadata
+│   ├── src/
+│   │   ├── styles/                     # Pure Vanilla CSS design tokens (NO Tailwind)
+│   │   ├── api/                        # Typed REST client and data contracts
+│   │   ├── components/                 # TopBar, Sidebar, SVG charts, Scorecard gauges
+│   │   ├── pages/                      # 7 core research screens
+│   │   └── App.tsx                     # Route management and telemetry polling
+│   └── vite.config.ts                  # Vite config with backend API reverse proxy
 ├── src/
 │   └── fairlens/
 │       ├── __init__.py
@@ -68,12 +80,13 @@ D:\fairlens\
 │       ├── api/                        # OpenRouter client, cache, pricing engine
 │       ├── discovery/                  # Multi-source discovery adapters and engine
 │       ├── auditing/                   # Loader, metrics, scoring, and audit engine
+│       ├── server/                     # Flask REST API server exposing typed endpoints
 │       └── demo.py                     # Master offline end-to-end integration demo
 ├── tests/
 │   ├── fixtures/
 │   │   ├── auditing/                   # 7 synthetic test fixtures (balanced, imbalanced, nulls, legal)
 │   │   └── discovery/                  # Deterministic multi-repository candidate fixtures
-│   └── unit/                           # 8 unit test suites (37 automated tests)
+│   └── unit/                           # 9 unit test suites (46 automated tests)
 └── outputs/
     └── audit_reports/                  # Exported JSON and CSV audit reports
 ```
@@ -85,19 +98,30 @@ D:\fairlens\
 FairLens is fully operational locally on Windows PowerShell. Zero external API calls or credentials are required for local testing or auditing.
 
 ### 3.1 Run All Automated Tests
-Runs the complete test suite across all 4 phases (37 tests):
+Runs the complete test suite across all modules and REST endpoints (46 tests):
 ```powershell
 .\run.ps1 test
 ```
-*Expected Result:* `Ran 37 tests in ~0.39s. OK.`
+*Expected Result:* `Ran 46 tests in ~2.9s. OK.`
 
-### 3.2 Run Offline End-to-End Demonstration
+### 3.2 Launch Full-Stack Application
+Spawn both the Python Flask REST API server (port 5000) and the Vite React frontend (port 5173):
+```powershell
+.\run.ps1 app
+```
+Or start individually:
+```powershell
+.\run.ps1 server     # Starts Flask REST API on http://127.0.0.1:5000
+.\run.ps1 frontend   # Starts Vite React UI on http://localhost:5173
+```
+
+### 3.3 Run Offline End-to-End Demonstration
 Executes data ingestion, representation audit, structured JSON/CSV export, mock OpenRouter caching, and offline dataset discovery in sequence:
 ```powershell
 .\run.ps1 demo
 ```
 
-### 3.3 Verify Configuration & Model Pricing
+### 3.4 Verify Configuration & Model Pricing
 Inspects settings, masks private secrets, and displays live verified pricing for Nemotron 3 Ultra:
 ```powershell
 .\run.ps1 api-check

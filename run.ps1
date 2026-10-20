@@ -25,6 +25,9 @@ function Show-Help {
     Write-Host "Commands:" -ForegroundColor Yellow
     Write-Host "  .\run.ps1 test             Run all unit and integration test suites"
     Write-Host "  .\run.ps1 demo             Run complete offline end-to-end demonstration"
+    Write-Host "  .\run.ps1 server           Start FairLens backend REST API (port 5000)"
+    Write-Host "  .\run.ps1 frontend         Start FairLens Vite React frontend dev server (port 5173)"
+    Write-Host "  .\run.ps1 app              Launch both backend API and frontend servers"
     Write-Host "  .\run.ps1 api-check        Verify OpenRouter API config and dry-run pricing"
     Write-Host "  .\run.ps1 audit <args>     Run Phase 4 representation-gap audit on a dataset"
     Write-Host "  .\run.ps1 discovery <args> Run Phase 3 dataset discovery search"
@@ -78,6 +81,25 @@ print(est.format_summary())
     "demo" {
         Write-Host "--> Executing FairLens Offline End-to-End Demo..." -ForegroundColor Green
         python -m fairlens.demo
+    }
+
+    "server" {
+        Write-Host "--> Starting FairLens Backend REST API Server on http://127.0.0.1:5000..." -ForegroundColor Green
+        python -m fairlens.server.app
+    }
+
+    "frontend" {
+        Write-Host "--> Starting FairLens Vite React Frontend..." -ForegroundColor Green
+        Set-Location "$PSScriptRoot\frontend"
+        npm run dev
+    }
+
+    "app" {
+        Write-Host "--> Launching FairLens Full-Stack Research Application..." -ForegroundColor Green
+        Start-Process powershell -ArgumentList "-NoExit", "-ExecutionPolicy Bypass", "-File `"$PSScriptRoot\run.ps1`"", "server"
+        Start-Sleep -Seconds 2
+        Start-Process powershell -ArgumentList "-NoExit", "-ExecutionPolicy Bypass", "-File `"$PSScriptRoot\run.ps1`"", "frontend"
+        Write-Host "FairLens backend and frontend processes spawned successfully." -ForegroundColor Cyan
     }
 
     "audit" {

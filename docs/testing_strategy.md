@@ -37,7 +37,8 @@ tests/
     ├── test_discovery_engine.py              (Discovery search, deduplication, error isolation)
     ├── test_auditing_loader.py               (Tabular file formats, duplicates, and file errors)
     ├── test_auditing_metrics.py              (Wilson intervals, coverage, deviation, JSD)
-    └── test_auditing_engine.py               (End-to-end representation audits & reports)
+    ├── test_auditing_engine.py               (End-to-end representation audits & reports)
+    └── test_server.py                        (Flask REST API endpoints and error isolation)
 ```
 
 ---
@@ -49,7 +50,7 @@ tests/
 $env:PYTHONPATH="src"; python -m unittest discover -s tests -p "test_*.py" -v
 ```
 
-**Observed Result:** `Ran 37 tests in 0.391s. OK.`
+**Observed Result:** `Ran 46 tests in 2.903s. OK.`
 
 | Test Module | Test Case Name | Objective / Scenario | Status |
 |---|---|---|:---:|
@@ -90,5 +91,14 @@ $env:PYTHONPATH="src"; python -m unittest discover -s tests -p "test_*.py" -v
 | `test_auditing_engine.py` | `test_no_reference_distribution_omits_parity_score` | Parity score is None when no reference provided | **Passed** |
 | `test_auditing_engine.py` | `test_realistic_indian_legal_audit_and_intersectional` | Audits 1,000-row Indian legal dataset | **Passed** |
 | `test_auditing_engine.py` | `test_export_audit_report` | Exports audit reports to JSON and CSV | **Passed** |
+| `test_server.py` | `test_health_check` | Returns healthy status and GPU telemetry | **Passed** |
+| `test_server.py` | `test_settings_view` | Returns masked secrets and budget limit | **Passed** |
+| `test_server.py` | `test_discovery_providers` | Lists discovery adapters and statuses | **Passed** |
+| `test_server.py` | `test_discovery_search` | Executes federated search across mock fixtures | **Passed** |
+| `test_server.py` | `test_profiler_samples` | Retrieves pre-loaded benchmark fixtures | **Passed** |
+| `test_server.py` | `test_profiler_profile` | Ingests dataset, schema, nulls, duplicates | **Passed** |
+| `test_server.py` | `test_audit_run_and_export` | Executes audit via REST, exports JSON/CSV | **Passed** |
+| `test_server.py` | `test_research_status` | Returns Layer B case study specs and facts | **Passed** |
+| `test_server.py` | `test_cost_estimator` | Computes token spend against budget ceiling | **Passed** |
 
-**Summary:** 37/37 tests passed (100% pass rate).
+**Summary:** 46/46 tests passed (100% pass rate).

@@ -83,6 +83,11 @@ discovery_cache/
 logs/
 outputs/temp/
 outputs/cache/
+outputs/uploads/*
+!outputs/uploads/.gitkeep
+outputs/audit_reports/*.json
+outputs/audit_reports/*.csv
+!outputs/audit_reports/.gitkeep
 
 # Large Datasets & Model Weights
 data/raw/
@@ -99,3 +104,12 @@ data/raw/
 *.key
 *.token
 credentials.json
+
+# Node.js & Frontend Artifacts
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+frontend/.tmp/
+frontend/*.tsbuildinfo
+
