@@ -69,7 +69,53 @@ This log records every completed work unit, actual test execution outcomes, veri
   - `docs/research/phase_1_report.md`
 - **Known Failures & Limitations:**
   - Full-text peer-reviewed conference venues for 2025/2026 preprints (e.g. GoalCover, CAFFE, BFSI-Bench) are tracked in the remaining literature backlog.
+- **Git Commit Hash:** `6d811c2`
+- **Push Status:** Pushed successfully to `origin/main`.
+- **Remaining Work:**
+  - Proceed to Phase 2: Infrastructure & Feasibility.
+
+---
+
+## Unit 2: Phase 2 — Core Infrastructure, Cached API Client, Cost Estimator & PowerShell Runner
+- **Date:** 2026-10-20
+- **Phase & Task:** Phase 2 — Infrastructure & Feasibility
+- **Files Changed:**
+  - `src/fairlens/__init__.py` (Created)
+  - `src/fairlens/config/__init__.py` (Created)
+  - `src/fairlens/config/settings.py` (Created: Settings with validation, budget thresholds, and secret masking)
+  - `src/fairlens/config/logging.py` (Created: Structured logging with automatic secret scrubbing filter)
+  - `src/fairlens/api/__init__.py` (Created)
+  - `src/fairlens/api/exceptions.py` (Created: Custom exception hierarchy)
+  - `src/fairlens/api/cache.py` (Created: Deterministic SHA-256 response cache with stats and invalidation)
+  - `src/fairlens/api/pricing.py` (Created: Pricing ledger and mathematical cost estimation engine)
+  - `src/fairlens/api/client.py` (Created: OpenRouter client with retry, backoff, and offline mock mode)
+  - `tests/unit/test_config.py` (Created: 5 unit tests for config validation and secret masking)
+  - `tests/unit/test_api_client.py` (Created: 4 unit tests for mock API, cache hit/miss, and auth errors)
+  - `tests/unit/test_pricing.py` (Created: 4 unit tests for cost formulas, cache scaling, and budget limits)
+  - `run.ps1` (Created: Master PowerShell execution entry point)
+  - `docs/phase_2_report.md` (Created: Infrastructure validation report and live pricing findings)
+  - `docs/progress_log.md` (Updated)
+- **Work Actually Completed:**
+  - Built centralized settings module reading env vars and `.env.example`, validating positive constraints.
+  - Implemented secret masking in both `repr()` and `SecretMaskingFilter` for log records.
+  - Built deterministic response caching module preventing repeated queries and redundant costs.
+  - Investigated and documented live OpenRouter pricing for `nvidia/nemotron-3-ultra-550b-a55b` ($0.00 free tier with prompt logging note, $0.60/$3.60 fallback paid rates).
+  - Built pre-execution cost estimator with budget thresholds ($5.00 limit) and safety margin scaling.
+  - Built resilient API client supporting mock mode, bounded retries with jitter, and custom exception handling.
+  - Implemented master execution entry point `run.ps1`.
+- **Commands Executed:**
+  - `$env:PYTHONPATH="src"; python -m unittest discover -s tests -p "test_*.py" -v`
+  - `powershell -ExecutionPolicy Bypass -File .\run.ps1 api-check`
+- **Tests Run & Outcomes:**
+  - `test_config.py`: 5 passed.
+  - `test_api_client.py`: 4 passed.
+  - `test_pricing.py`: 4 passed.
+  - Total: 13 passed in 0.047s.
+- **Evidence Produced:**
+  - `docs/phase_2_report.md`
+- **Known Failures & Limitations:**
+  - Live network calls to OpenRouter require setting `OPENROUTER_API_KEY` and disabling `offline_mode`. Offline mock mode is verified and passing.
 - **Git Commit Hash:** Pending commit.
 - **Push Status:** Pending.
 - **Remaining Work:**
-  - Commit and push Unit 1. Proceed to Phase 2: Infrastructure & Feasibility.
+  - Commit and push Unit 2. Proceed to Phase 3: Dataset Discovery Engine.
