@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fairlens"
+version = "0.1.0"
+description = "A Generalized Fairness Gap-Detection Framework for AI Datasets and Models"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Shobhit", email = "shobhitagrawal2004@gmail.com"}
+]
+keywords = ["fairness", "dataset-auditing", "representation-gap", "nemotron", "indian-legal-fairness"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+]
+dependencies = [
+    "requests>=2.28.0",
+    "pandas>=2.0.0",
+    "pyarrow>=14.0.0",
+    "openpyxl>=3.1.0",
+    "scipy>=1.10.0",
+    "scikit-learn>=1.2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
