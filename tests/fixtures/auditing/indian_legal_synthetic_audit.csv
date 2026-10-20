@@ -1,0 +1,1001 @@
+case_id,state,gender,religion,caste_category,statutory_section,bail_granted,legal_representation
+CAS-2026-00001,Uttar Pradesh,Male,Hindu,OBC,IPC-406,1,Self
+CAS-2026-00002,Kerala,Male,Hindu,OBC,BNS-318,0,Private Advocate
+CAS-2026-00003,Bihar,Female,Muslim,General,BNS-318,1,Private Advocate
+CAS-2026-00004,Tamil Nadu,Female,Hindu,OBC,IPC-378,0,Private Advocate
+CAS-2026-00005,Maharashtra,Female,,OBC,IPC-302,1,Self
+CAS-2026-00006,Maharashtra,Female,Hindu,SC,BNS-318,0,Legal Aid
+CAS-2026-00007,Maharashtra,Female,Hindu,SC,IPC-302,1,Private Advocate
+CAS-2026-00008,Delhi,Female,Hindu,General,IPC-420,1,Private Advocate
+CAS-2026-00009,Tamil Nadu,Male,Hindu,OBC,IPC-302,1,Private Advocate
+CAS-2026-00010,Bihar,Male,Hindu,General,IPC-406,1,Private Advocate
+CAS-2026-00011,Maharashtra,Male,Hindu,OBC,IPC-406,1,Private Advocate
+CAS-2026-00012,Kerala,Non-Binary,Hindu,General,BNS-318,1,Legal Aid
+CAS-2026-00013,West Bengal,Female,Muslim,General,IPC-302,0,Private Advocate
+CAS-2026-00014,Uttar Pradesh,Male,Hindu,General,BNS-318,0,Legal Aid
+CAS-2026-00015,Maharashtra,Female,Hindu,OBC,IPC-378,0,Private Advocate
+CAS-2026-00016,Maharashtra,Female,Hindu,General,IPC-406,0,Legal Aid
+CAS-2026-00017,Uttar Pradesh,Male,Hindu,OBC,BNS-318,0,Legal Aid
+CAS-2026-00018,Karnataka,Male,Muslim,General,IPC-378,1,Private Advocate
+CAS-2026-00019,Karnataka,Female,Hindu,General,BNS-318,0,Private Advocate
+CAS-2026-00020,Uttar Pradesh,Male,Hindu,OBC,IPC-302,1,Private Advocate
+CAS-2026-00021,Tamil Nadu,Female,Sikh,General,IPC-302,0,Private Advocate
+CAS-2026-00022,Maharashtra,Male,Hindu,General,IPC-302,0,Private Advocate
+CAS-2026-00023,Uttar Pradesh,Female,Christian,OBC,IPC-302,1,Private Advocate
+CAS-2026-00024,Uttar Pradesh,Female,Hindu,General,IPC-420,1,Self
+CAS-2026-00025,Karnataka,Female,Hindu,General,IPC-378,1,Private Advocate
+CAS-2026-00026,West Bengal,Male,Hindu,General,IPC-378,1,Legal Aid
+CAS-2026-00027,Maharashtra,Female,Hindu,SC,IPC-302,0,Private Advocate
+CAS-2026-00028,Karnataka,Female,Jain,OBC,IPC-420,1,Legal Aid
+CAS-2026-00029,Tamil Nadu,Male,Hindu,OBC,IPC-302,0,Private Advocate
+CAS-2026-00030,Maharashtra,Female,Hindu,OBC,IPC-420,0,Legal Aid
+CAS-2026-00031,Tamil Nadu,Male,Hindu,General,IPC-302,0,Private Advocate
+CAS-2026-00032,Maharashtra,Male,Hindu,General,IPC-406,0,Private Advocate
+CAS-2026-00033,Maharashtra,Male,Hindu,OBC,IPC-406,0,Private Advocate
+CAS-2026-00034,Kerala,Male,,General,BNS-318,1,Private Advocate
+CAS-2026-00035,Kerala,Male,Hindu,General,IPC-302,1,Private Advocate
+CAS-2026-00036,West Bengal,Female,Hindu,General,IPC-378,0,Private Advocate
+CAS-2026-00037,Uttar Pradesh,Male,Hindu,General,BNS-318,0,Private Advocate
+CAS-2026-00038,Maharashtra,Female,Hindu,ST,IPC-406,0,Legal Aid
+CAS-2026-00039,Bihar,Male,Hindu,General,IPC-302,0,Private Advocate
+CAS-2026-00040,Karnataka,Male,Hindu,OBC,BNS-318,1,Private Advocate
+CAS-2026-00041,Maharashtra,Male,Muslim,General,IPC-302,0,Legal Aid
+CAS-2026-00042,Karnataka,Female,,ST,IPC-406,1,Private Advocate
+CAS-2026-00043,Maharashtra,Male,Hindu,General,BNS-318,0,Private Advocate
+CAS-2026-00044,Delhi,Male,Hindu,General,IPC-406,1,Private Advocate
+CAS-2026-00045,Uttar Pradesh,Female,Muslim,OBC,IPC-420,0,Self
+CAS-2026-00046,Bihar,Male,Hindu,OBC,IPC-406,1,Legal Aid
+CAS-2026-00047,Uttar Pradesh,Male,Hindu,General,IPC-302,0,Legal Aid
+CAS-2026-00048,Karnataka,Male,Hindu,General,IPC-378,1,Private Advocate
+CAS-2026-00049,Tamil Nadu,Female,Hindu,General,IPC-406,0,Legal Aid
+CAS-2026-00050,Maharashtra,Male,Hindu,General,IPC-378,0,Private Advocate
+CAS-2026-00051,Kerala,Female,Hindu,General,IPC-420,1,Private Advocate
+CAS-2026-00052,West Bengal,Male,Hindu,OBC,BNS-318,1,Private Advocate
+CAS-2026-00053,Kerala,Female,Hindu,General,BNS-318,1,Private Advocate
+CAS-2026-00054,Delhi,Female,Christian,General,IPC-378,1,Private Advocate
+CAS-2026-00055,Tamil Nadu,Non-Binary,Muslim,OBC,BNS-318,1,Private Advocate
+CAS-2026-00056,Delhi,Male,Hindu,ST,IPC-406,0,Private Advocate
+CAS-2026-00057,Maharashtra,Female,Hindu,OBC,IPC-378,0,Private Advocate
+CAS-2026-00058,Maharashtra,Male,Hindu,unknown,IPC-302,0,Legal Aid
+CAS-2026-00059,Maharashtra,Male,Hindu,General,IPC-406,1,Private Advocate
+CAS-2026-00060,Uttar Pradesh,Male,Hindu,ST,IPC-406,0,Legal Aid
+CAS-2026-00061,Karnataka,Female,Hindu,General,IPC-406,0,Private Advocate
+CAS-2026-00062,Uttar Pradesh,Non-Binary,Hindu,General,IPC-302,1,Legal Aid
+CAS-2026-00063,West Bengal,Female,Muslim,OBC,IPC-420,1,Private Advocate
+CAS-2026-00064,Uttar Pradesh,Male,Hindu,OBC,BNS-318,0,Private Advocate
+CAS-2026-00065,Uttar Pradesh,Male,Hindu,OBC,IPC-378,0,Private Advocate
+CAS-2026-00066,Tamil Nadu,Female,Muslim,General,IPC-420,0,Private Advocate
+CAS-2026-00067,Maharashtra,Male,Hindu,General,IPC-378,0,Legal Aid
+CAS-2026-00068,West Bengal,Male,Hindu,ST,BNS-318,0,Private Advocate
+CAS-2026-00069,Maharashtra,Male,Hindu,General,IPC-302,1,Private Advocate
+CAS-2026-00070,Kerala,Male,Hindu,OBC,IPC-406,1,Legal Aid
+CAS-2026-00071,West Bengal,Male,Hindu,OBC,IPC-406,1,Private Advocate
+CAS-2026-00072,Maharashtra,Male,Hindu,OBC,IPC-302,0,Private Advocate
+CAS-2026-00073,Maharashtra,Male,Hindu,General,IPC-420,1,Private Advocate
+CAS-2026-00074,West Bengal,Male,Muslim,General,IPC-420,0,Private Advocate
+CAS-2026-00075,Bihar,Non-Binary,Muslim,OBC,IPC-378,1,Private Advocate
+CAS-2026-00076,Bihar,Male,Muslim,SC,IPC-302,1,Private Advocate
+CAS-2026-00077,West Bengal,Male,Hindu,SC,IPC-420,0,Self
+CAS-2026-00078,Maharashtra,Female,Hindu,General,IPC-302,0,Private Advocate
+CAS-2026-00079,Uttar Pradesh,Male,Jain,General,BNS-318,1,Private Advocate
+CAS-2026-00080,Maharashtra,Female,Hindu,SC,IPC-406,0,Private Advocate
+CAS-2026-00081,Delhi,Female,Hindu,OBC,IPC-406,1,Legal Aid
+CAS-2026-00082,Tamil Nadu,Male,Hindu,SC,IPC-406,0,Legal Aid
+CAS-2026-00083,Uttar Pradesh,Male,Hindu,General,IPC-302,1,Private Advocate
+CAS-2026-00084,Maharashtra,Female,Muslim,OBC,IPC-302,0,Legal Aid
+CAS-2026-00085,Uttar Pradesh,Female,Hindu,OBC,IPC-378,0,Private Advocate
+CAS-2026-00086,Uttar Pradesh,Male,Hindu,OBC,IPC-406,1,Private Advocate
+CAS-2026-00087,Bihar,Male,Hindu,General,IPC-378,0,Private Advocate
+CAS-2026-00088,Tamil Nadu,Male,Hindu,General,IPC-406,0,Private Advocate
+CAS-2026-00089,Delhi,Non-Binary,Muslim,OBC,IPC-378,0,Private Advocate
+CAS-2026-00090,Karnataka,Male,Hindu,General,IPC-378,0,Legal Aid
+CAS-2026-00091,Maharashtra,Female,Hindu,OBC,BNS-318,0,Private Advocate
+CAS-2026-00092,Bihar,Male,Sikh,ST,IPC-378,0,Self
+CAS-2026-00093,West Bengal,Male,Hindu,General,IPC-302,1,Private Advocate
+CAS-2026-00094,Tamil Nadu,Male,Hindu,unknown,IPC-378,0,Private Advocate
+CAS-2026-00095,West Bengal,Male,Hindu,General,IPC-406,1,Private Advocate
+CAS-2026-00096,Karnataka,Male,Muslim,OBC,IPC-378,0,Private Advocate
+CAS-2026-00097,Karnataka,Male,Hindu,ST,IPC-420,0,Private Advocate
+CAS-2026-00098,Karnataka,Male,Hindu,General,IPC-406,1,Private Advocate
+CAS-2026-00099,Maharashtra,Female,Muslim,unknown,IPC-420,0,Private Advocate
+CAS-2026-00100,Maharashtra,Male,Hindu,unknown,IPC-406,1,Private Advocate
+CAS-2026-00101,Maharashtra,Male,Muslim,General,IPC-302,0,Legal Aid
+CAS-2026-00102,Tamil Nadu,Female,Hindu,OBC,IPC-302,1,Private Advocate
+CAS-2026-00103,Uttar Pradesh,Female,Hindu,SC,IPC-302,1,Private Advocate
+CAS-2026-00104,Karnataka,Female,Hindu,General,IPC-420,1,Private Advocate
+CAS-2026-00105,Delhi,Non-Binary,Muslim,General,BNS-318,1,Legal Aid
+CAS-2026-00106,Uttar Pradesh,Male,Hindu,General,IPC-406,1,Legal Aid
+CAS-2026-00107,Karnataka,Male,Muslim,OBC,IPC-302,0,Private Advocate
+CAS-2026-00108,West Bengal,Female,Muslim,General,IPC-406,0,Private Advocate
+CAS-2026-00109,Uttar Pradesh,Female,Hindu,OBC,IPC-420,1,Private Advocate
+CAS-2026-00110,Maharashtra,Male,Jain,OBC,BNS-318,0,Self
+CAS-2026-00111,Uttar Pradesh,Female,Hindu,OBC,IPC-420,0,Private Advocate
+CAS-2026-00112,Maharashtra,Male,Hindu,General,IPC-406,1,Private Advocate
+CAS-2026-00113,Delhi,Male,Hindu,OBC,BNS-318,0,Private Advocate
+CAS-2026-00114,West Bengal,Male,Muslim,General,BNS-318,1,Private Advocate
+CAS-2026-00115,Tamil Nadu,Male,Hindu,General,IPC-420,1,Self
+CAS-2026-00116,Delhi,Male,Hindu,SC,IPC-302,1,Private Advocate
+CAS-2026-00117,West Bengal,Male,Hindu,OBC,IPC-406,1,Private Advocate
+CAS-2026-00118,Maharashtra,Female,Hindu,General,IPC-378,0,Private Advocate
+CAS-2026-00119,Delhi,Male,Hindu,General,IPC-378,0,Legal Aid
+CAS-2026-00120,Tamil Nadu,Male,Muslim,General,IPC-420,1,Legal Aid
+CAS-2026-00121,West Bengal,Female,Muslim,General,IPC-406,0,Private Advocate
+CAS-2026-00122,Delhi,Female,Hindu,General,IPC-406,1,Private Advocate
+CAS-2026-00123,Uttar Pradesh,Female,Sikh,General,IPC-420,1,Legal Aid
+CAS-2026-00124,Maharashtra,Female,Hindu,OBC,IPC-406,1,Private Advocate
+CAS-2026-00125,Uttar Pradesh,Female,Jain,OBC,IPC-302,0,Private Advocate
+CAS-2026-00126,Karnataka,Male,Hindu,OBC,IPC-420,1,Private Advocate
+CAS-2026-00127,West Bengal,Male,Hindu,OBC,IPC-302,1,Self
+CAS-2026-00128,Delhi,Male,Hindu,General,IPC-406,1,Private Advocate
+CAS-2026-00129,Maharashtra,Male,Muslim,ST,IPC-420,0,Legal Aid
+CAS-2026-00130,Karnataka,Male,Hindu,SC,IPC-406,1,Private Advocate
+CAS-2026-00131,Karnataka,Female,Hindu,SC,IPC-420,1,Private Advocate
+CAS-2026-00132,Uttar Pradesh,Male,Hindu,SC,IPC-406,1,Private Advocate
+CAS-2026-00133,Maharashtra,Male,Hindu,SC,IPC-302,1,Private Advocate
+CAS-2026-00134,Uttar Pradesh,Male,Hindu,OBC,IPC-302,0,Private Advocate
+CAS-2026-00135,Kerala,Female,Hindu,General,IPC-406,1,Private Advocate
+CAS-2026-00136,Uttar Pradesh,Male,Muslim,OBC,IPC-420,1,Private Advocate
+CAS-2026-00137,Karnataka,Female,Hindu,OBC,IPC-378,0,Legal Aid
+CAS-2026-00138,Bihar,Male,Hindu,OBC,IPC-302,1,Self
+CAS-2026-00139,Uttar Pradesh,Male,Hindu,OBC,IPC-302,1,Private Advocate
+CAS-2026-00140,Kerala,Male,Muslim,General,IPC-378,1,Private Advocate
+CAS-2026-00141,Kerala,Female,Muslim,General,IPC-406,1,Private Advocate
+CAS-2026-00142,Uttar Pradesh,Male,Hindu,SC,IPC-420,1,Private Advocate
+CAS-2026-00143,Karnataka,Female,Hindu,OBC,IPC-406,1,Legal Aid
+CAS-2026-00144,Uttar Pradesh,Male,Hindu,OBC,BNS-318,0,Private Advocate
+CAS-2026-00145,Uttar Pradesh,Male,Hindu,General,IPC-302,0,Private Advocate
+CAS-2026-00146,Maharashtra,Female,Muslim,General,BNS-318,0,Legal Aid
+CAS-2026-00147,Tamil Nadu,Female,Hindu,SC,IPC-302,1,Private Advocate
+CAS-2026-00148,Karnataka,Female,Hindu,OBC,IPC-302,1,Private Advocate
+CAS-2026-00149,Maharashtra,Female,Hindu,OBC,BNS-318,1,Private Advocate
+CAS-2026-00150,Uttar Pradesh,Female,Muslim,unknown,BNS-318,0,Private Advocate
+CAS-2026-00151,Delhi,Female,Hindu,OBC,IPC-406,1,Private Advocate
+CAS-2026-00152,Uttar Pradesh,Female,Hindu,General,BNS-318,0,Legal Aid
+CAS-2026-00153,Maharashtra,Female,Hindu,OBC,IPC-406,1,Legal Aid
+CAS-2026-00154,Karnataka,Female,Muslim,General,IPC-406,1,Private Advocate
+CAS-2026-00155,Kerala,Male,Hindu,General,IPC-406,0,Legal Aid
+CAS-2026-00156,Uttar Pradesh,Female,Hindu,OBC,IPC-302,0,Private Advocate
+CAS-2026-00157,Bihar,Male,Hindu,SC,IPC-302,1,Legal Aid
+CAS-2026-00158,West Bengal,Female,Hindu,General,BNS-318,1,Private Advocate
+CAS-2026-00159,Uttar Pradesh,Female,Hindu,SC,IPC-302,0,Legal Aid
+CAS-2026-00160,Bihar,Male,Hindu,General,BNS-318,1,Legal Aid
+CAS-2026-00161,Uttar Pradesh,Female,Hindu,General,IPC-302,1,Private Advocate
+CAS-2026-00162,Tamil Nadu,Male,Hindu,General,IPC-420,1,Legal Aid
+CAS-2026-00163,Tamil Nadu,Male,Hindu,General,IPC-420,1,Legal Aid
+CAS-2026-00164,Tamil Nadu,Female,Muslim,OBC,BNS-318,1,Legal Aid
+CAS-2026-00165,Maharashtra,Male,Hindu,General,IPC-302,1,Private Advocate
+CAS-2026-00166,West Bengal,Female,Sikh,OBC,IPC-302,1,Legal Aid
+CAS-2026-00167,Uttar Pradesh,Female,Hindu,SC,IPC-406,1,Legal Aid
+CAS-2026-00168,Maharashtra,Male,Hindu,General,IPC-378,0,Private Advocate
+CAS-2026-00169,Maharashtra,Male,Hindu,OBC,BNS-318,1,Self
+CAS-2026-00170,Tamil Nadu,Male,Hindu,General,IPC-378,0,Private Advocate
+CAS-2026-00171,Bihar,Male,,OBC,IPC-378,0,Private Advocate
+CAS-2026-00172,Maharashtra,Non-Binary,Hindu,General,BNS-318,0,Private Advocate
+CAS-2026-00173,Karnataka,Male,Hindu,General,IPC-302,0,Private Advocate
+CAS-2026-00174,Uttar Pradesh,Male,Muslim,General,BNS-318,1,Private Advocate
+CAS-2026-00175,Tamil Nadu,Male,Hindu,General,IPC-378,0,Private Advocate
+CAS-2026-00176,Maharashtra,Male,Muslim,unknown,IPC-302,1,Self
+CAS-2026-00177,Bihar,Female,Hindu,unknown,IPC-420,1,Private Advocate
+CAS-2026-00178,Karnataka,Male,Hindu,SC,BNS-318,1,Private Advocate
+CAS-2026-00179,Kerala,Female,Hindu,SC,BNS-318,0,Private Advocate
+CAS-2026-00180,Maharashtra,Male,Hindu,OBC,IPC-302,1,Private Advocate
+CAS-2026-00181,Uttar Pradesh,Female,Hindu,General,IPC-420,1,Legal Aid
+CAS-2026-00182,Maharashtra,Male,Hindu,General,IPC-420,1,Private Advocate
+CAS-2026-00183,Delhi,Male,Hindu,General,IPC-302,1,Legal Aid
+CAS-2026-00184,Delhi,Female,Hindu,General,IPC-406,1,Private Advocate
+CAS-2026-00185,Uttar Pradesh,Male,Hindu,OBC,BNS-318,1,Private Advocate
+CAS-2026-00186,Bihar,Female,Christian,unknown,BNS-318,0,Private Advocate
+CAS-2026-00187,West Bengal,Female,Muslim,General,IPC-378,1,Private Advocate
+CAS-2026-00188,Tamil Nadu,Male,Hindu,General,IPC-302,0,Private Advocate
+CAS-2026-00189,Karnataka,Male,Muslim,SC,IPC-378,1,Private Advocate
+CAS-2026-00190,Uttar Pradesh,Female,Hindu,OBC,IPC-378,0,Private Advocate
+CAS-2026-00191,Maharashtra,Male,Hindu,General,IPC-420,0,Legal Aid
+CAS-2026-00192,Delhi,Male,Muslim,SC,BNS-318,1,Private Advocate
+CAS-2026-00193,Delhi,Male,,ST,IPC-378,1,Private Advocate
+CAS-2026-00194,Tamil Nadu,Male,Hindu,General,IPC-420,0,Private Advocate
+CAS-2026-00195,Uttar Pradesh,Male,Hindu,General,IPC-302,1,Private Advocate
+CAS-2026-00196,Uttar Pradesh,Female,Hindu,OBC,IPC-378,1,Legal Aid
+CAS-2026-00197,Bihar,Female,Hindu,SC,BNS-318,0,Private Advocate
+CAS-2026-00198,Delhi,Female,Muslim,SC,IPC-378,1,Private Advocate
+CAS-2026-00199,Delhi,Female,Hindu,General,IPC-302,0,Self
+CAS-2026-00200,West Bengal,Male,Hindu,General,IPC-378,1,Private Advocate
+CAS-2026-00201,Tamil Nadu,Female,Sikh,OBC,BNS-318,1,Private Advocate
+CAS-2026-00202,Maharashtra,Male,Hindu,OBC,IPC-420,0,Private Advocate
+CAS-2026-00203,Maharashtra,Male,Hindu,General,BNS-318,1,Private Advocate
+CAS-2026-00204,Delhi,Male,Hindu,SC,IPC-420,0,Legal Aid
+CAS-2026-00205,Tamil Nadu,Male,Hindu,OBC,IPC-406,1,Legal Aid
+CAS-2026-00206,Maharashtra,Female,Muslim,SC,BNS-318,1,Self
+CAS-2026-00207,Maharashtra,Female,Hindu,SC,BNS-318,1,Private Advocate
+CAS-2026-00208,Bihar,Male,Muslim,OBC,IPC-302,0,Private Advocate
+CAS-2026-00209,Maharashtra,Male,Hindu,General,IPC-378,0,Legal Aid
+CAS-2026-00210,Maharashtra,Non-Binary,Muslim,OBC,IPC-420,0,Private Advocate
+CAS-2026-00211,Tamil Nadu,Male,Hindu,General,IPC-420,0,Private Advocate
+CAS-2026-00212,Bihar,Male,Muslim,OBC,IPC-302,1,Private Advocate
+CAS-2026-00213,Bihar,Male,Hindu,General,IPC-302,1,Private Advocate
+CAS-2026-00214,Uttar Pradesh,Female,Sikh,OBC,IPC-378,1,Private Advocate
+CAS-2026-00215,Bihar,Female,Hindu,General,IPC-378,1,Legal Aid
+CAS-2026-00216,Uttar Pradesh,Male,Hindu,General,BNS-318,1,Legal Aid
+CAS-2026-00217,Uttar Pradesh,Male,Muslim,General,IPC-406,1,Private Advocate
+CAS-2026-00218,Bihar,Female,Hindu,General,IPC-378,1,Private Advocate
+CAS-2026-00219,Tamil Nadu,Female,Muslim,OBC,IPC-302,1,Private Advocate
+CAS-2026-00220,West Bengal,Male,Hindu,OBC,IPC-378,0,Legal Aid
+CAS-2026-00221,Bihar,Female,Hindu,OBC,IPC-420,0,Private Advocate
+CAS-2026-00222,Tamil Nadu,Male,Hindu,General,IPC-406,1,Legal Aid
+CAS-2026-00223,Maharashtra,Male,Hindu,General,BNS-318,0,Private Advocate
+CAS-2026-00224,Uttar Pradesh,Female,Hindu,General,IPC-420,0,Private Advocate
+CAS-2026-00225,Uttar Pradesh,Male,Hindu,General,IPC-420,1,Private Advocate
+CAS-2026-00226,Uttar Pradesh,Male,Hindu,SC,IPC-406,1,Legal Aid
+CAS-2026-00227,Kerala,Male,Hindu,General,BNS-318,1,Private Advocate
+CAS-2026-00228,Karnataka,Male,Hindu,General,IPC-302,0,Private Advocate
+CAS-2026-00229,Delhi,Non-Binary,Hindu,General,BNS-318,0,Private Advocate
+CAS-2026-00230,Tamil Nadu,Male,Hindu,General,IPC-378,1,Legal Aid
+CAS-2026-00231,West Bengal,Female,Hindu,OBC,IPC-420,1,Legal Aid
+CAS-2026-00232,Karnataka,Male,Hindu,OBC,IPC-378,1,Private Advocate
+CAS-2026-00233,Tamil Nadu,Male,Muslim,General,IPC-302,1,Legal Aid
+CAS-2026-00234,Karnataka,Male,Muslim,General,IPC-378,1,Private Advocate
+CAS-2026-00235,Maharashtra,Female,Hindu,General,BNS-318,1,Private Advocate
+CAS-2026-00236,Bihar,Male,Hindu,General,IPC-378,0,Private Advocate
+CAS-2026-00237,Uttar Pradesh,Female,Muslim,General,IPC-302,1,Private Advocate
+CAS-2026-00238,Maharashtra,Male,Hindu,ST,IPC-302,1,Legal Aid
+CAS-2026-00239,Tamil Nadu,Female,Hindu,unknown,IPC-302,1,Legal Aid
+CAS-2026-00240,Maharashtra,Male,Hindu,OBC,BNS-318,1,Private Advocate
+CAS-2026-00241,Kerala,Female,Muslim,General,IPC-302,1,Private Advocate
+CAS-2026-00242,Kerala,Female,Hindu,General,IPC-420,0,Legal Aid
+CAS-2026-00243,Delhi,Female,Hindu,OBC,IPC-302,1,Legal Aid
+CAS-2026-00244,Uttar Pradesh,Female,Other,OBC,IPC-378,0,Private Advocate
+CAS-2026-00245,Maharashtra,Female,Muslim,OBC,IPC-378,1,Self
+CAS-2026-00246,Delhi,Male,Hindu,General,IPC-378,0,Private Advocate
+CAS-2026-00247,Karnataka,Male,Hindu,OBC,BNS-318,0,Private Advocate
+CAS-2026-00248,Kerala,Male,Muslim,General,IPC-378,1,Legal Aid
+CAS-2026-00249,Kerala,Female,Hindu,SC,BNS-318,1,Private Advocate
+CAS-2026-00250,Delhi,Male,Hindu,OBC,BNS-318,1,Private Advocate
+CAS-2026-00251,Uttar Pradesh,Female,Hindu,OBC,IPC-302,0,Private Advocate
+CAS-2026-00252,Karnataka,Male,Muslim,General,IPC-420,1,Legal Aid
+CAS-2026-00253,Delhi,Male,Hindu,OBC,IPC-302,0,Legal Aid
+CAS-2026-00254,Uttar Pradesh,Male,,General,IPC-302,1,Private Advocate
+CAS-2026-00255,Maharashtra,Female,Muslim,General,BNS-318,1,Private Advocate
+CAS-2026-00256,Tamil Nadu,Male,Hindu,General,BNS-318,1,Private Advocate
+CAS-2026-00257,Kerala,Male,Hindu,OBC,IPC-378,0,Private Advocate
+CAS-2026-00258,Bihar,Male,Hindu,General,IPC-378,1,Private Advocate
+CAS-2026-00259,Tamil Nadu,Male,Hindu,General,IPC-302,0,Legal Aid
+CAS-2026-00260,Maharashtra,Male,Hindu,SC,IPC-406,1,Private Advocate
+CAS-2026-00261,Tamil Nadu,Male,Hindu,General,IPC-406,0,Private Advocate
+CAS-2026-00262,Kerala,Female,Hindu,OBC,IPC-378,1,Private Advocate
+CAS-2026-00263,Maharashtra,Male,Muslim,General,IPC-406,0,Private Advocate
+CAS-2026-00264,Karnataka,Male,Hindu,General,IPC-378,1,Legal Aid
+CAS-2026-00265,Delhi,Male,Hindu,OBC,BNS-318,1,Private Advocate
+CAS-2026-00266,Bihar,Male,Hindu,General,IPC-302,1,Private Advocate
+CAS-2026-00267,Bihar,Male,Hindu,OBC,IPC-420,0,Private Advocate
+CAS-2026-00268,Bihar,Male,Hindu,OBC,IPC-302,1,Private Advocate
+CAS-2026-00269,Uttar Pradesh,Male,Hindu,OBC,IPC-378,1,Private Advocate
+CAS-2026-00270,Uttar Pradesh,Male,Hindu,unknown,IPC-378,1,Private Advocate
+CAS-2026-00271,West Bengal,Female,Hindu,General,IPC-302,0,Private Advocate
+CAS-2026-00272,West Bengal,Female,Hindu,General,IPC-378,1,Private Advocate
+CAS-2026-00273,Delhi,Female,Hindu,OBC,IPC-406,1,Private Advocate
+CAS-2026-00274,Delhi,Male,Hindu,OBC,IPC-406,0,Private Advocate
+CAS-2026-00275,Karnataka,Male,Christian,SC,IPC-378,0,Self
+CAS-2026-00276,Karnataka,Male,Hindu,SC,IPC-378,1,Private Advocate
+CAS-2026-00277,West Bengal,Male,Hindu,SC,IPC-406,0,Private Advocate
+CAS-2026-00278,Tamil Nadu,Non-Binary,Hindu,OBC,IPC-378,0,Private Advocate
+CAS-2026-00279,Bihar,Male,Hindu,General,IPC-378,1,Private Advocate
+CAS-2026-00280,West Bengal,Male,Hindu,OBC,IPC-302,1,Legal Aid
+CAS-2026-00281,Delhi,Male,Hindu,OBC,IPC-420,0,Private Advocate
+CAS-2026-00282,Uttar Pradesh,Female,Hindu,General,IPC-406,1,Legal Aid
+CAS-2026-00283,Uttar Pradesh,Male,Hindu,SC,IPC-302,0,Private Advocate
+CAS-2026-00284,Maharashtra,Male,Hindu,SC,IPC-420,0,Private Advocate
+CAS-2026-00285,Tamil Nadu,Male,Hindu,OBC,IPC-378,0,Legal Aid
+CAS-2026-00286,Maharashtra,Male,Hindu,General,IPC-378,1,Private Advocate
+CAS-2026-00287,Karnataka,Male,Sikh,General,IPC-302,0,Private Advocate
+CAS-2026-00288,Tamil Nadu,Male,Hindu,SC,IPC-378,0,Private Advocate
+CAS-2026-00289,Uttar Pradesh,Male,Hindu,SC,BNS-318,1,Legal Aid
+CAS-2026-00290,Tamil Nadu,Male,Hindu,General,IPC-302,1,Private Advocate
+CAS-2026-00291,Maharashtra,Male,Hindu,General,IPC-420,0,Legal Aid
+CAS-2026-00292,Maharashtra,Male,Hindu,SC,IPC-302,1,Private Advocate
+CAS-2026-00293,West Bengal,Male,Hindu,General,IPC-406,0,Legal Aid
+CAS-2026-00294,Uttar Pradesh,Female,Hindu,unknown,IPC-302,1,Private Advocate
+CAS-2026-00295,Maharashtra,Female,Hindu,ST,IPC-378,1,Legal Aid
+CAS-2026-00296,Karnataka,Male,Hindu,General,IPC-378,1,Private Advocate
+CAS-2026-00297,West Bengal,Male,Hindu,OBC,BNS-318,0,Legal Aid
+CAS-2026-00298,Uttar Pradesh,Male,Hindu,General,BNS-318,0,Private Advocate
+CAS-2026-00299,Tamil Nadu,Male,Hindu,General,BNS-318,0,Private Advocate
+CAS-2026-00300,Maharashtra,Female,Hindu,SC,IPC-420,0,Private Advocate
+CAS-2026-00301,Maharashtra,Male,Muslim,General,BNS-318,0,Private Advocate
+CAS-2026-00302,Tamil Nadu,Female,Hindu,ST,IPC-420,1,Private Advocate
+CAS-2026-00303,Tamil Nadu,Male,Hindu,OBC,BNS-318,1,Legal Aid
+CAS-2026-00304,Tamil Nadu,Male,Hindu,unknown,IPC-420,1,Self
+CAS-2026-00305,Bihar,Female,Christian,General,IPC-302,1,Private Advocate
+CAS-2026-00306,Kerala,Female,Hindu,General,IPC-302,1,Legal Aid
+CAS-2026-00307,Karnataka,Female,Hindu,General,IPC-378,1,Private Advocate
+CAS-2026-00308,Uttar Pradesh,Female,Hindu,General,IPC-420,0,Private Advocate
+CAS-2026-00309,West Bengal,Male,Hindu,General,IPC-406,1,Legal Aid
+CAS-2026-00310,Uttar Pradesh,Female,Hindu,OBC,IPC-378,1,Private Advocate
+CAS-2026-00311,Karnataka,Male,Hindu,OBC,IPC-302,1,Self
+CAS-2026-00312,Maharashtra,Female,Muslim,OBC,IPC-420,1,Private Advocate
+CAS-2026-00313,Maharashtra,Male,Hindu,OBC,BNS-318,0,Private Advocate
+CAS-2026-00314,Kerala,Female,Hindu,General,IPC-406,0,Private Advocate
+CAS-2026-00315,West Bengal,Male,Other,General,IPC-302,1,Private Advocate
+CAS-2026-00316,Bihar,Male,Hindu,OBC,IPC-378,0,Private Advocate
+CAS-2026-00317,Karnataka,Male,Hindu,OBC,IPC-420,1,Self
+CAS-2026-00318,Maharashtra,Female,Hindu,General,IPC-406,1,Legal Aid
+CAS-2026-00319,Maharashtra,Male,Hindu,SC,IPC-420,1,Legal Aid
+CAS-2026-00320,Uttar Pradesh,Male,Hindu,OBC,BNS-318,1,Private Advocate
+CAS-2026-00321,Tamil Nadu,Male,Muslim,OBC,IPC-378,0,Private Advocate
+CAS-2026-00322,Bihar,Male,,General,IPC-420,0,Private Advocate
+CAS-2026-00323,Bihar,Female,Hindu,OBC,IPC-302,1,Private Advocate
+CAS-2026-00324,Uttar Pradesh,Male,Hindu,OBC,IPC-378,1,Private Advocate
+CAS-2026-00325,Kerala,Female,Muslim,OBC,IPC-302,1,Legal Aid
+CAS-2026-00326,Bihar,Male,Christian,OBC,IPC-420,0,Private Advocate
+CAS-2026-00327,Tamil Nadu,Male,Muslim,SC,IPC-378,0,Private Advocate
+CAS-2026-00328,Tamil Nadu,Female,Hindu,OBC,IPC-302,1,Private Advocate
+CAS-2026-00329,Karnataka,Female,Hindu,General,BNS-318,0,Private Advocate
+CAS-2026-00330,Uttar Pradesh,Male,Hindu,OBC,BNS-318,1,Private Advocate
+CAS-2026-00331,Uttar Pradesh,Male,Hindu,OBC,IPC-420,0,Legal Aid
+CAS-2026-00332,West Bengal,Female,Hindu,OBC,IPC-378,1,Private Advocate
+CAS-2026-00333,Maharashtra,Male,Hindu,General,IPC-406,1,Legal Aid
+CAS-2026-00334,Maharashtra,Non-Binary,Hindu,General,IPC-378,1,Private Advocate
+CAS-2026-00335,Maharashtra,Female,Hindu,SC,BNS-318,0,Private Advocate
+CAS-2026-00336,Maharashtra,Female,Hindu,OBC,IPC-302,1,Private Advocate
+CAS-2026-00337,Delhi,Male,Hindu,SC,IPC-406,1,Legal Aid
+CAS-2026-00338,Bihar,Female,Hindu,OBC,IPC-420,0,Legal Aid
+CAS-2026-00339,Karnataka,Male,Hindu,OBC,IPC-406,1,Private Advocate
+CAS-2026-00340,Maharashtra,Male,Hindu,OBC,IPC-420,1,Private Advocate
+CAS-2026-00341,Karnataka,Male,Hindu,SC,IPC-406,1,Private Advocate
+CAS-2026-00342,Karnataka,Male,Hindu,OBC,IPC-420,1,Private Advocate
+CAS-2026-00343,Maharashtra,Female,Hindu,OBC,IPC-420,0,Legal Aid
+CAS-2026-00344,Karnataka,Female,Hindu,General,IPC-406,0,Private Advocate
+CAS-2026-00345,Karnataka,Female,Christian,OBC,IPC-406,0,Private Advocate
+CAS-2026-00346,Tamil Nadu,Male,Hindu,OBC,IPC-420,1,Private Advocate
+CAS-2026-00347,Tamil Nadu,Male,Hindu,General,BNS-318,1,Private Advocate
+CAS-2026-00348,Maharashtra,Male,Hindu,General,IPC-406,1,Private Advocate
+CAS-2026-00349,Uttar Pradesh,Non-Binary,Hindu,General,IPC-378,0,Private Advocate
+CAS-2026-00350,Tamil Nadu,Male,Hindu,General,IPC-302,0,Legal Aid
+CAS-2026-00351,Karnataka,Female,Hindu,General,IPC-420,1,Legal Aid
+CAS-2026-00352,Delhi,Male,Muslim,General,IPC-420,1,Private Advocate
+CAS-2026-00353,Bihar,Male,Hindu,SC,IPC-302,0,Legal Aid
+CAS-2026-00354,Maharashtra,Female,Muslim,OBC,BNS-318,1,Private Advocate
+CAS-2026-00355,Maharashtra,Male,Hindu,General,IPC-302,0,Private Advocate
+CAS-2026-00356,Tamil Nadu,Female,Hindu,General,IPC-406,0,Private Advocate
+CAS-2026-00357,Maharashtra,Female,Muslim,OBC,IPC-302,1,Private Advocate
+CAS-2026-00358,Tamil Nadu,Male,Hindu,General,IPC-420,0,Private Advocate
+CAS-2026-00359,Kerala,Male,Hindu,SC,IPC-302,1,Private Advocate
+CAS-2026-00360,Tamil Nadu,Male,,OBC,IPC-378,0,Private Advocate
+CAS-2026-00361,Karnataka,Female,Hindu,OBC,IPC-406,0,Self
+CAS-2026-00362,Tamil Nadu,Male,Hindu,General,IPC-302,0,Private Advocate
+CAS-2026-00363,Karnataka,Male,Hindu,OBC,IPC-420,1,Private Advocate
+CAS-2026-00364,Tamil Nadu,Male,Hindu,General,IPC-406,1,Private Advocate
+CAS-2026-00365,Kerala,Female,Hindu,SC,IPC-420,1,Private Advocate
+CAS-2026-00366,Karnataka,Male,Hindu,OBC,BNS-318,0,Private Advocate
+CAS-2026-00367,Kerala,Female,Hindu,General,IPC-378,0,Legal Aid
+CAS-2026-00368,Delhi,Female,Hindu,General,BNS-318,1,Private Advocate
+CAS-2026-00369,Maharashtra,Male,Hindu,General,IPC-378,1,Private Advocate
+CAS-2026-00370,Maharashtra,Male,Hindu,OBC,IPC-302,1,Private Advocate
+CAS-2026-00371,Maharashtra,Female,Hindu,General,IPC-406,0,Private Advocate
+CAS-2026-00372,Maharashtra,Male,Muslim,OBC,IPC-302,1,Private Advocate
+CAS-2026-00373,Maharashtra,Female,Hindu,General,IPC-378,1,Private Advocate
+CAS-2026-00374,Bihar,Male,Hindu,OBC,IPC-378,0,Private Advocate
+CAS-2026-00375,Maharashtra,Male,Hindu,SC,IPC-378,1,Private Advocate
+CAS-2026-00376,Uttar Pradesh,Female,Hindu,OBC,IPC-420,0,Private Advocate
+CAS-2026-00377,West Bengal,Male,Hindu,OBC,IPC-406,1,Self
+CAS-2026-00378,Maharashtra,Male,Muslim,General,IPC-302,1,Private Advocate
+CAS-2026-00379,West Bengal,Male,Hindu,General,IPC-302,1,Legal Aid
+CAS-2026-00380,Uttar Pradesh,Male,Muslim,OBC,BNS-318,1,Legal Aid
+CAS-2026-00381,Maharashtra,Male,Muslim,General,IPC-378,0,Private Advocate
+CAS-2026-00382,Bihar,Male,Muslim,General,IPC-378,1,Private Advocate
+CAS-2026-00383,Tamil Nadu,Female,Muslim,General,IPC-378,0,Private Advocate
+CAS-2026-00384,Delhi,Male,Hindu,General,IPC-302,0,Private Advocate
+CAS-2026-00385,Bihar,Female,Hindu,General,BNS-318,1,Private Advocate
+CAS-2026-00386,West Bengal,Male,Hindu,SC,IPC-420,1,Legal Aid
+CAS-2026-00387,Uttar Pradesh,Female,Hindu,General,IPC-406,1,Legal Aid
+CAS-2026-00388,Maharashtra,Male,Hindu,OBC,IPC-420,0,Private Advocate
+CAS-2026-00389,West Bengal,Female,Hindu,General,IPC-302,1,Private Advocate
+CAS-2026-00390,West Bengal,Male,Hindu,OBC,IPC-378,1,Private Advocate
+CAS-2026-00391,Kerala,Male,Hindu,General,IPC-406,0,Legal Aid
+CAS-2026-00392,Karnataka,Male,Hindu,SC,IPC-302,0,Private Advocate
+CAS-2026-00393,Uttar Pradesh,Male,Hindu,SC,IPC-302,0,Private Advocate
+CAS-2026-00394,West Bengal,Male,Hindu,General,IPC-302,0,Legal Aid
+CAS-2026-00395,Uttar Pradesh,Male,Muslim,SC,IPC-406,1,Private Advocate
+CAS-2026-00396,Kerala,Female,Hindu,ST,IPC-406,1,Legal Aid
+CAS-2026-00397,Delhi,Male,Hindu,SC,BNS-318,1,Private Advocate
+CAS-2026-00398,Karnataka,Male,Hindu,unknown,BNS-318,1,Private Advocate
+CAS-2026-00399,West Bengal,Male,Hindu,unknown,IPC-420,0,Legal Aid
+CAS-2026-00400,West Bengal,Female,Hindu,OBC,IPC-406,1,Private Advocate
+CAS-2026-00401,Maharashtra,Male,,General,IPC-406,1,Private Advocate
+CAS-2026-00402,Delhi,Male,Hindu,General,IPC-406,1,Private Advocate
+CAS-2026-00403,Karnataka,Male,Hindu,ST,BNS-318,0,Private Advocate
+CAS-2026-00404,West Bengal,Female,Hindu,General,IPC-302,1,Private Advocate
+CAS-2026-00405,Uttar Pradesh,Female,Hindu,OBC,IPC-378,0,Private Advocate
+CAS-2026-00406,Delhi,Male,Hindu,SC,BNS-318,0,Private Advocate
+CAS-2026-00407,Karnataka,Female,Hindu,SC,IPC-406,1,Private Advocate
+CAS-2026-00408,Maharashtra,Female,Hindu,ST,BNS-318,0,Legal Aid
+CAS-2026-00409,Delhi,Male,Jain,General,IPC-420,1,Legal Aid
+CAS-2026-00410,Maharashtra,Female,Hindu,General,IPC-406,1,Private Advocate
+CAS-2026-00411,Uttar Pradesh,Male,Hindu,General,IPC-420,1,Private Advocate
+CAS-2026-00412,Kerala,Male,Hindu,General,IPC-406,0,Private Advocate
+CAS-2026-00413,Kerala,Male,Hindu,General,BNS-318,0,Private Advocate
+CAS-2026-00414,Tamil Nadu,Male,Hindu,General,IPC-302,0,Legal Aid
+CAS-2026-00415,Tamil Nadu,Male,Hindu,OBC,IPC-378,1,Legal Aid
+CAS-2026-00416,Karnataka,Female,Sikh,OBC,IPC-420,0,Private Advocate
+CAS-2026-00417,Uttar Pradesh,Male,Hindu,General,BNS-318,0,Private Advocate
+CAS-2026-00418,Uttar Pradesh,Male,Hindu,OBC,IPC-302,0,Private Advocate
+CAS-2026-00419,Bihar,Male,Hindu,General,BNS-318,0,Private Advocate
+CAS-2026-00420,West Bengal,Female,Hindu,General,IPC-420,1,Private Advocate
+CAS-2026-00421,West Bengal,Male,Hindu,OBC,IPC-378,1,Self
+CAS-2026-00422,West Bengal,Male,Hindu,OBC,BNS-318,0,Legal Aid
+CAS-2026-00423,Maharashtra,Male,Hindu,OBC,IPC-406,1,Private Advocate
+CAS-2026-00424,Karnataka,Male,Hindu,General,IPC-302,1,Private Advocate
+CAS-2026-00425,Maharashtra,Non-Binary,Hindu,SC,BNS-318,0,Legal Aid
+CAS-2026-00426,Tamil Nadu,Female,Muslim,OBC,IPC-302,1,Private Advocate
+CAS-2026-00427,Karnataka,Male,Hindu,OBC,IPC-406,0,Private Advocate
+CAS-2026-00428,Delhi,Female,Christian,OBC,IPC-378,1,Private Advocate
+CAS-2026-00429,Uttar Pradesh,Male,Hindu,SC,IPC-378,0,Legal Aid
+CAS-2026-00430,Maharashtra,Female,Muslim,OBC,IPC-406,1,Private Advocate
+CAS-2026-00431,Maharashtra,Male,Hindu,OBC,IPC-302,1,Private Advocate
+CAS-2026-00432,West Bengal,Male,Muslim,ST,BNS-318,0,Legal Aid
+CAS-2026-00433,Tamil Nadu,Male,Jain,OBC,IPC-406,0,Legal Aid
+CAS-2026-00434,Maharashtra,Female,Hindu,General,IPC-420,1,Legal Aid
+CAS-2026-00435,Maharashtra,Male,Sikh,OBC,IPC-302,1,Private Advocate
+CAS-2026-00436,Bihar,Male,Hindu,General,IPC-378,1,Private Advocate
+CAS-2026-00437,Maharashtra,Male,Hindu,General,IPC-406,1,Legal Aid
+CAS-2026-00438,West Bengal,Female,Hindu,OBC,IPC-378,1,Legal Aid
+CAS-2026-00439,Bihar,Male,Hindu,SC,IPC-302,1,Private Advocate
+CAS-2026-00440,Maharashtra,Female,Hindu,SC,IPC-378,1,Private Advocate
+CAS-2026-00441,Maharashtra,Female,Hindu,General,IPC-406,1,Legal Aid
+CAS-2026-00442,Kerala,Male,Hindu,OBC,IPC-302,1,Legal Aid
+CAS-2026-00443,Uttar Pradesh,Female,Hindu,General,IPC-420,1,Private Advocate
+CAS-2026-00444,Uttar Pradesh,Male,Muslim,ST,IPC-406,0,Private Advocate
+CAS-2026-00445,West Bengal,Female,Hindu,ST,BNS-318,1,Private Advocate
+CAS-2026-00446,Kerala,Male,Hindu,OBC,IPC-406,1,Private Advocate
+CAS-2026-00447,Kerala,Female,Hindu,SC,IPC-302,0,Private Advocate
+CAS-2026-00448,West Bengal,Female,Hindu,OBC,IPC-406,1,Private Advocate
+CAS-2026-00449,Uttar Pradesh,Female,Hindu,OBC,IPC-420,1,Private Advocate
+CAS-2026-00450,Maharashtra,Female,Hindu,General,IPC-420,0,Private Advocate
+CAS-2026-00451,West Bengal,Male,Hindu,OBC,BNS-318,1,Private Advocate
+CAS-2026-00452,Tamil Nadu,Male,Sikh,OBC,IPC-378,0,Legal Aid
+CAS-2026-00453,Karnataka,Female,Hindu,OBC,IPC-302,1,Private Advocate
+CAS-2026-00454,Delhi,Male,Hindu,General,IPC-302,0,Private Advocate
+CAS-2026-00455,Maharashtra,Male,Hindu,SC,IPC-378,1,Legal Aid
+CAS-2026-00456,Karnataka,Female,Hindu,General,IPC-420,1,Private Advocate
+CAS-2026-00457,Maharashtra,Female,Hindu,OBC,IPC-420,0,Self
+CAS-2026-00458,Karnataka,Female,Hindu,OBC,IPC-406,1,Legal Aid
+CAS-2026-00459,Maharashtra,Male,Hindu,OBC,BNS-318,1,Private Advocate
+CAS-2026-00460,Maharashtra,Female,Hindu,OBC,BNS-318,0,Self
+CAS-2026-00461,Maharashtra,Male,Other,General,BNS-318,1,Private Advocate
+CAS-2026-00462,Tamil Nadu,Female,Muslim,General,IPC-406,1,Private Advocate
+CAS-2026-00463,Bihar,Male,Hindu,OBC,BNS-318,0,Private Advocate
+CAS-2026-00464,Tamil Nadu,Female,Hindu,unknown,IPC-378,0,Private Advocate
+CAS-2026-00465,Kerala,Non-Binary,Hindu,General,IPC-406,0,Legal Aid
+CAS-2026-00466,Uttar Pradesh,Male,Hindu,OBC,IPC-378,0,Private Advocate
+CAS-2026-00467,Uttar Pradesh,Female,Hindu,OBC,IPC-406,1,Private Advocate
+CAS-2026-00468,Delhi,Male,Hindu,OBC,BNS-318,1,Private Advocate
+CAS-2026-00469,Uttar Pradesh,Female,Hindu,SC,IPC-378,0,Private Advocate
+CAS-2026-00470,Kerala,Female,Hindu,General,IPC-378,0,Private Advocate
+CAS-2026-00471,Maharashtra,Male,Hindu,General,IPC-378,0,Private Advocate
+CAS-2026-00472,Kerala,Female,Sikh,OBC,IPC-406,1,Legal Aid
+CAS-2026-00473,Maharashtra,Female,Muslim,OBC,IPC-302,0,Private Advocate
+CAS-2026-00474,Delhi,Male,Hindu,OBC,BNS-318,1,Legal Aid
+CAS-2026-00475,Karnataka,Male,Hindu,SC,IPC-378,1,Private Advocate
+CAS-2026-00476,Kerala,Female,Muslim,SC,IPC-302,0,Legal Aid
+CAS-2026-00477,Maharashtra,Female,Hindu,unknown,BNS-318,1,Legal Aid
+CAS-2026-00478,Tamil Nadu,Female,Muslim,OBC,BNS-318,1,Private Advocate
+CAS-2026-00479,Kerala,Female,Hindu,OBC,IPC-378,1,Private Advocate
+CAS-2026-00480,Karnataka,Male,Muslim,General,IPC-378,1,Legal Aid
+CAS-2026-00481,Tamil Nadu,Female,Hindu,General,IPC-406,0,Private Advocate
+CAS-2026-00482,Bihar,Male,Muslim,OBC,IPC-302,0,Self
+CAS-2026-00483,Karnataka,Male,Christian,General,IPC-302,1,Private Advocate
+CAS-2026-00484,Tamil Nadu,Male,Hindu,unknown,IPC-378,0,Private Advocate
+CAS-2026-00485,Tamil Nadu,Male,Hindu,OBC,BNS-318,0,Private Advocate
+CAS-2026-00486,Delhi,Male,Jain,OBC,IPC-378,0,Self
+CAS-2026-00487,Maharashtra,Male,Hindu,General,BNS-318,0,Private Advocate
+CAS-2026-00488,Uttar Pradesh,Female,Muslim,General,BNS-318,1,Legal Aid
+CAS-2026-00489,Kerala,Male,Hindu,General,IPC-378,0,Legal Aid
+CAS-2026-00490,Delhi,Male,Hindu,General,IPC-420,1,Private Advocate
+CAS-2026-00491,Karnataka,Male,Hindu,General,IPC-302,1,Private Advocate
+CAS-2026-00492,Tamil Nadu,Male,Hindu,OBC,BNS-318,1,Legal Aid
+CAS-2026-00493,Uttar Pradesh,Male,Hindu,SC,BNS-318,0,Private Advocate
+CAS-2026-00494,Maharashtra,Male,Hindu,SC,IPC-420,1,Legal Aid
+CAS-2026-00495,Karnataka,Male,Hindu,OBC,IPC-406,0,Private Advocate
+CAS-2026-00496,Uttar Pradesh,Female,Hindu,General,IPC-420,1,Private Advocate
+CAS-2026-00497,Tamil Nadu,Male,Hindu,SC,IPC-420,1,Legal Aid
+CAS-2026-00498,Maharashtra,Male,Muslim,SC,BNS-318,1,Private Advocate
+CAS-2026-00499,Kerala,Male,Jain,General,IPC-302,1,Private Advocate
+CAS-2026-00500,Kerala,Female,Hindu,OBC,IPC-420,1,Private Advocate
+CAS-2026-00501,Bihar,Male,Muslim,General,IPC-406,0,Private Advocate
+CAS-2026-00502,Tamil Nadu,Male,Hindu,unknown,IPC-378,1,Private Advocate
+CAS-2026-00503,Uttar Pradesh,Male,Hindu,ST,IPC-420,1,Legal Aid
+CAS-2026-00504,West Bengal,Male,Christian,General,IPC-420,0,Private Advocate
+CAS-2026-00505,Bihar,Male,Hindu,SC,IPC-406,1,Private Advocate
+CAS-2026-00506,Maharashtra,Male,Hindu,OBC,IPC-302,1,Private Advocate
+CAS-2026-00507,Delhi,Male,Muslim,ST,IPC-420,1,Private Advocate
+CAS-2026-00508,West Bengal,Male,Hindu,OBC,IPC-420,1,Private Advocate
+CAS-2026-00509,Kerala,Male,Muslim,SC,IPC-302,1,Legal Aid
+CAS-2026-00510,Bihar,Female,Muslim,General,IPC-406,0,Legal Aid
+CAS-2026-00511,Tamil Nadu,Female,Hindu,General,IPC-420,1,Private Advocate
+CAS-2026-00512,Karnataka,Female,Muslim,General,IPC-302,0,Private Advocate
+CAS-2026-00513,Kerala,Female,Hindu,ST,IPC-420,1,Private Advocate
+CAS-2026-00514,Delhi,Male,Hindu,SC,IPC-378,0,Private Advocate
+CAS-2026-00515,Maharashtra,Male,Hindu,SC,BNS-318,0,Private Advocate
+CAS-2026-00516,Maharashtra,Male,Christian,SC,IPC-378,0,Private Advocate
+CAS-2026-00517,Uttar Pradesh,Male,Hindu,General,IPC-420,1,Private Advocate
+CAS-2026-00518,West Bengal,Female,Hindu,General,IPC-406,0,Private Advocate
+CAS-2026-00519,Kerala,Male,,General,BNS-318,1,Private Advocate
+CAS-2026-00520,Maharashtra,Female,Hindu,General,IPC-378,0,Self
+CAS-2026-00521,Tamil Nadu,Male,Hindu,General,IPC-302,0,Private Advocate
+CAS-2026-00522,Karnataka,Female,Hindu,OBC,IPC-406,1,Private Advocate
+CAS-2026-00523,Kerala,Male,Hindu,General,IPC-378,1,Private Advocate
+CAS-2026-00524,West Bengal,Male,Hindu,General,IPC-302,0,Private Advocate
+CAS-2026-00525,West Bengal,Male,Muslim,General,IPC-420,0,Legal Aid
+CAS-2026-00526,Karnataka,Male,,General,IPC-302,0,Private Advocate
+CAS-2026-00527,Karnataka,Male,Hindu,ST,IPC-378,0,Private Advocate
+CAS-2026-00528,Uttar Pradesh,Male,Christian,OBC,IPC-378,1,Private Advocate
+CAS-2026-00529,Maharashtra,Female,Hindu,ST,IPC-420,1,Legal Aid
+CAS-2026-00530,Delhi,Male,Other,General,IPC-302,0,Private Advocate
+CAS-2026-00531,West Bengal,Male,Hindu,General,IPC-302,1,Private Advocate
+CAS-2026-00532,Kerala,Male,Muslim,OBC,IPC-420,1,Private Advocate
+CAS-2026-00533,Kerala,Female,Hindu,General,IPC-302,0,Private Advocate
+CAS-2026-00534,Tamil Nadu,Male,Hindu,General,IPC-420,1,Private Advocate
+CAS-2026-00535,West Bengal,Male,Hindu,General,IPC-406,1,Private Advocate
+CAS-2026-00536,Kerala,Male,Muslim,General,IPC-378,0,Private Advocate
+CAS-2026-00537,West Bengal,Male,Hindu,General,IPC-406,0,Legal Aid
+CAS-2026-00538,Uttar Pradesh,Female,Hindu,General,BNS-318,1,Private Advocate
+CAS-2026-00539,Karnataka,Male,Hindu,OBC,BNS-318,1,Private Advocate
+CAS-2026-00540,Maharashtra,Male,Hindu,General,BNS-318,0,Private Advocate
+CAS-2026-00541,Kerala,Female,Hindu,General,IPC-420,0,Self
+CAS-2026-00542,Tamil Nadu,Male,Hindu,SC,IPC-302,1,Private Advocate
+CAS-2026-00543,Uttar Pradesh,Male,Muslim,General,IPC-406,1,Legal Aid
+CAS-2026-00544,Bihar,Male,Hindu,General,IPC-406,1,Private Advocate
+CAS-2026-00545,Tamil Nadu,Female,Hindu,SC,IPC-406,1,Private Advocate
+CAS-2026-00546,Uttar Pradesh,Male,Hindu,General,IPC-406,0,Private Advocate
+CAS-2026-00547,Maharashtra,Female,Hindu,General,BNS-318,1,Private Advocate
+CAS-2026-00548,Bihar,Male,Hindu,OBC,IPC-406,1,Legal Aid
+CAS-2026-00549,Karnataka,Male,Hindu,General,IPC-302,0,Self
+CAS-2026-00550,West Bengal,Male,Hindu,OBC,BNS-318,0,Private Advocate
+CAS-2026-00551,Karnataka,Female,Hindu,SC,IPC-406,1,Private Advocate
+CAS-2026-00552,Delhi,Male,Hindu,General,IPC-420,1,Legal Aid
+CAS-2026-00553,Tamil Nadu,Female,Muslim,OBC,IPC-378,1,Private Advocate
+CAS-2026-00554,Tamil Nadu,Female,Christian,OBC,IPC-378,1,Private Advocate
+CAS-2026-00555,Delhi,Male,Hindu,General,IPC-378,0,Private Advocate
+CAS-2026-00556,Karnataka,Male,Christian,OBC,BNS-318,1,Private Advocate
+CAS-2026-00557,Maharashtra,Male,Hindu,General,IPC-406,1,Private Advocate
+CAS-2026-00558,Maharashtra,Male,Hindu,OBC,BNS-318,1,Private Advocate
+CAS-2026-00559,West Bengal,Female,,General,IPC-302,1,Private Advocate
+CAS-2026-00560,Tamil Nadu,Female,Hindu,OBC,IPC-420,1,Private Advocate
+CAS-2026-00561,Bihar,Male,Muslim,General,IPC-420,0,Private Advocate
+CAS-2026-00562,Uttar Pradesh,Male,Hindu,SC,IPC-378,1,Private Advocate
+CAS-2026-00563,Maharashtra,Female,Hindu,General,IPC-378,0,Legal Aid
+CAS-2026-00564,Maharashtra,Male,Hindu,General,IPC-378,0,Private Advocate
+CAS-2026-00565,Uttar Pradesh,Female,Hindu,OBC,IPC-406,0,Private Advocate
+CAS-2026-00566,Tamil Nadu,Male,Hindu,OBC,IPC-302,1,Legal Aid
+CAS-2026-00567,Karnataka,Female,Hindu,OBC,IPC-302,1,Legal Aid
+CAS-2026-00568,Karnataka,Male,Hindu,OBC,IPC-302,1,Private Advocate
+CAS-2026-00569,Delhi,Male,Muslim,OBC,IPC-302,1,Private Advocate
+CAS-2026-00570,Uttar Pradesh,Male,Christian,SC,IPC-378,1,Legal Aid
+CAS-2026-00571,Karnataka,Male,Hindu,General,IPC-420,0,Legal Aid
+CAS-2026-00572,West Bengal,Male,Muslim,OBC,IPC-378,1,Self
+CAS-2026-00573,Karnataka,Female,Hindu,SC,IPC-302,0,Legal Aid
+CAS-2026-00574,Tamil Nadu,Female,Hindu,ST,IPC-378,0,Private Advocate
+CAS-2026-00575,Delhi,Male,Hindu,SC,IPC-302,1,Private Advocate
+CAS-2026-00576,Kerala,Male,Hindu,General,BNS-318,0,Private Advocate
+CAS-2026-00577,Maharashtra,Male,Sikh,General,IPC-420,0,Private Advocate
+CAS-2026-00578,Delhi,Male,Hindu,OBC,BNS-318,1,Private Advocate
+CAS-2026-00579,Karnataka,Male,Hindu,OBC,IPC-406,1,Private Advocate
+CAS-2026-00580,Uttar Pradesh,Male,Hindu,OBC,IPC-378,1,Private Advocate
+CAS-2026-00581,Karnataka,Male,Hindu,OBC,IPC-406,1,Legal Aid
+CAS-2026-00582,Kerala,Male,Muslim,SC,IPC-378,1,Private Advocate
+CAS-2026-00583,Karnataka,Male,Hindu,General,BNS-318,1,Private Advocate
+CAS-2026-00584,Uttar Pradesh,Male,Hindu,SC,IPC-302,0,Private Advocate
+CAS-2026-00585,Tamil Nadu,Non-Binary,Hindu,General,IPC-302,1,Private Advocate
+CAS-2026-00586,Uttar Pradesh,Male,Hindu,General,IPC-378,1,Legal Aid
+CAS-2026-00587,Maharashtra,Female,Hindu,OBC,IPC-302,1,Private Advocate
+CAS-2026-00588,Maharashtra,Male,,OBC,BNS-318,1,Self
+CAS-2026-00589,Maharashtra,Male,Hindu,General,IPC-302,0,Private Advocate
+CAS-2026-00590,Maharashtra,Female,Hindu,General,BNS-318,0,Private Advocate
+CAS-2026-00591,Maharashtra,Female,Muslim,ST,IPC-406,1,Private Advocate
+CAS-2026-00592,Tamil Nadu,Non-Binary,Muslim,General,BNS-318,0,Private Advocate
+CAS-2026-00593,Maharashtra,Male,Hindu,OBC,IPC-420,1,Legal Aid
+CAS-2026-00594,Uttar Pradesh,Male,Hindu,OBC,IPC-420,0,Private Advocate
+CAS-2026-00595,Delhi,Female,Hindu,OBC,IPC-420,1,Legal Aid
+CAS-2026-00596,Karnataka,Male,Hindu,OBC,IPC-378,1,Private Advocate
+CAS-2026-00597,Bihar,Male,Hindu,General,IPC-378,0,Legal Aid
+CAS-2026-00598,Maharashtra,Male,Hindu,OBC,IPC-378,0,Private Advocate
+CAS-2026-00599,Maharashtra,Male,,General,BNS-318,1,Legal Aid
+CAS-2026-00600,Maharashtra,Female,,OBC,IPC-378,1,Private Advocate
+CAS-2026-00601,Maharashtra,Male,Hindu,General,IPC-406,1,Private Advocate
+CAS-2026-00602,Uttar Pradesh,Male,Hindu,OBC,IPC-420,0,Private Advocate
+CAS-2026-00603,Maharashtra,Male,Hindu,General,BNS-318,1,Legal Aid
+CAS-2026-00604,Maharashtra,Male,Hindu,General,IPC-420,1,Private Advocate
+CAS-2026-00605,Maharashtra,Male,Hindu,General,IPC-378,0,Private Advocate
+CAS-2026-00606,Karnataka,Male,Hindu,General,BNS-318,1,Legal Aid
+CAS-2026-00607,Uttar Pradesh,Male,Hindu,SC,IPC-302,0,Private Advocate
+CAS-2026-00608,Uttar Pradesh,Female,Hindu,General,IPC-406,0,Private Advocate
+CAS-2026-00609,Karnataka,Male,Hindu,SC,IPC-378,0,Private Advocate
+CAS-2026-00610,Bihar,Male,Hindu,ST,IPC-378,0,Private Advocate
+CAS-2026-00611,Maharashtra,Female,Muslim,OBC,IPC-406,0,Legal Aid
+CAS-2026-00612,West Bengal,Female,Hindu,General,IPC-406,1,Legal Aid
+CAS-2026-00613,Tamil Nadu,Male,Hindu,General,IPC-302,0,Private Advocate
+CAS-2026-00614,Maharashtra,Male,Hindu,OBC,IPC-378,0,Self
+CAS-2026-00615,Delhi,Male,Hindu,General,IPC-378,0,Private Advocate
+CAS-2026-00616,Delhi,Female,,General,IPC-420,1,Private Advocate
+CAS-2026-00617,Maharashtra,Non-Binary,Hindu,OBC,BNS-318,0,Private Advocate
+CAS-2026-00618,Uttar Pradesh,Female,Hindu,SC,BNS-318,1,Private Advocate
+CAS-2026-00619,West Bengal,Male,Muslim,OBC,IPC-420,1,Private Advocate
+CAS-2026-00620,Bihar,Female,Hindu,General,BNS-318,1,Legal Aid
+CAS-2026-00621,Maharashtra,Male,Muslim,OBC,IPC-406,0,Legal Aid
+CAS-2026-00622,Uttar Pradesh,Male,Muslim,General,BNS-318,1,Private Advocate
+CAS-2026-00623,Uttar Pradesh,Male,Hindu,General,BNS-318,1,Private Advocate
+CAS-2026-00624,Karnataka,Female,Muslim,SC,IPC-420,1,Legal Aid
+CAS-2026-00625,Tamil Nadu,Male,Hindu,General,IPC-302,0,Legal Aid
+CAS-2026-00626,Uttar Pradesh,Female,Sikh,General,BNS-318,1,Legal Aid
+CAS-2026-00627,Karnataka,Male,Hindu,General,BNS-318,0,Private Advocate
+CAS-2026-00628,Bihar,Male,Hindu,SC,IPC-302,1,Legal Aid
+CAS-2026-00629,Maharashtra,Male,Hindu,OBC,IPC-420,1,Private Advocate
+CAS-2026-00630,Uttar Pradesh,Male,Hindu,OBC,IPC-302,0,Private Advocate
+CAS-2026-00631,Bihar,Female,Hindu,OBC,IPC-420,1,Private Advocate
+CAS-2026-00632,Delhi,Male,Hindu,General,IPC-406,0,Private Advocate
+CAS-2026-00633,Karnataka,Female,Hindu,OBC,IPC-420,1,Private Advocate
+CAS-2026-00634,Tamil Nadu,Female,Hindu,General,IPC-406,1,Private Advocate
+CAS-2026-00635,Maharashtra,Female,Hindu,General,IPC-406,0,Private Advocate
+CAS-2026-00636,Karnataka,Male,Hindu,OBC,IPC-420,0,Legal Aid
+CAS-2026-00637,Tamil Nadu,Male,Sikh,SC,IPC-378,1,Private Advocate
+CAS-2026-00638,Uttar Pradesh,Male,Hindu,General,IPC-420,0,Private Advocate
+CAS-2026-00639,Uttar Pradesh,Non-Binary,Christian,General,BNS-318,0,Private Advocate
+CAS-2026-00640,Uttar Pradesh,Female,Hindu,General,BNS-318,0,Self
+CAS-2026-00641,Maharashtra,Male,Hindu,General,IPC-378,1,Private Advocate
+CAS-2026-00642,Uttar Pradesh,Female,Hindu,SC,IPC-406,1,Private Advocate
+CAS-2026-00643,Uttar Pradesh,Male,Muslim,OBC,IPC-378,0,Private Advocate
+CAS-2026-00644,Uttar Pradesh,Male,Hindu,OBC,BNS-318,0,Legal Aid
+CAS-2026-00645,Maharashtra,Male,Hindu,OBC,IPC-378,0,Self
+CAS-2026-00646,Delhi,Female,Hindu,General,IPC-420,0,Private Advocate
+CAS-2026-00647,Tamil Nadu,Male,Christian,OBC,IPC-378,0,Private Advocate
+CAS-2026-00648,Bihar,Female,Hindu,General,IPC-406,1,Legal Aid
+CAS-2026-00649,West Bengal,Female,Hindu,OBC,IPC-420,0,Private Advocate
+CAS-2026-00650,Karnataka,Female,Hindu,ST,IPC-302,0,Private Advocate
+CAS-2026-00651,Maharashtra,Male,Hindu,OBC,BNS-318,0,Private Advocate
+CAS-2026-00652,Tamil Nadu,Male,Hindu,General,BNS-318,1,Private Advocate
+CAS-2026-00653,Tamil Nadu,Male,Hindu,SC,IPC-378,1,Private Advocate
+CAS-2026-00654,Bihar,Male,Hindu,General,IPC-420,1,Private Advocate
+CAS-2026-00655,Karnataka,Male,Hindu,General,IPC-302,0,Private Advocate
+CAS-2026-00656,Maharashtra,Female,Hindu,General,IPC-420,0,Legal Aid
+CAS-2026-00657,Uttar Pradesh,Male,Muslim,General,BNS-318,0,Private Advocate
+CAS-2026-00658,Uttar Pradesh,Male,Muslim,OBC,IPC-420,0,Legal Aid
+CAS-2026-00659,Tamil Nadu,Male,Hindu,OBC,IPC-302,1,Private Advocate
+CAS-2026-00660,Tamil Nadu,Male,,SC,IPC-378,1,Private Advocate
+CAS-2026-00661,Uttar Pradesh,Male,Hindu,OBC,IPC-406,1,Private Advocate
+CAS-2026-00662,Kerala,Male,Muslim,OBC,IPC-420,1,Legal Aid
+CAS-2026-00663,Tamil Nadu,Female,Hindu,General,IPC-406,0,Legal Aid
+CAS-2026-00664,Uttar Pradesh,Male,Hindu,General,BNS-318,1,Private Advocate
+CAS-2026-00665,Maharashtra,Non-Binary,Hindu,OBC,IPC-378,0,Legal Aid
+CAS-2026-00666,Maharashtra,Female,Hindu,General,IPC-378,0,Private Advocate
+CAS-2026-00667,Uttar Pradesh,Male,Hindu,SC,IPC-420,1,Self
+CAS-2026-00668,Maharashtra,Female,Hindu,General,IPC-378,0,Legal Aid
+CAS-2026-00669,Maharashtra,Male,Hindu,General,IPC-420,0,Legal Aid
+CAS-2026-00670,Uttar Pradesh,Female,Hindu,General,IPC-420,0,Private Advocate
+CAS-2026-00671,Maharashtra,Male,Hindu,General,IPC-406,1,Private Advocate
+CAS-2026-00672,Delhi,Female,Hindu,General,IPC-378,1,Private Advocate
+CAS-2026-00673,Maharashtra,Female,Hindu,OBC,IPC-420,0,Private Advocate
+CAS-2026-00674,Karnataka,Female,Hindu,General,IPC-406,1,Private Advocate
+CAS-2026-00675,Karnataka,Female,Muslim,OBC,IPC-302,0,Private Advocate
+CAS-2026-00676,Kerala,Male,Hindu,General,IPC-406,1,Private Advocate
+CAS-2026-00677,Maharashtra,Male,Hindu,General,IPC-406,1,Private Advocate
+CAS-2026-00678,Karnataka,Male,Hindu,General,IPC-420,1,Private Advocate
+CAS-2026-00679,Kerala,Male,Hindu,SC,BNS-318,1,Private Advocate
+CAS-2026-00680,Delhi,Female,Hindu,General,BNS-318,0,Self
+CAS-2026-00681,West Bengal,Male,Hindu,OBC,BNS-318,1,Private Advocate
+CAS-2026-00682,Uttar Pradesh,Female,Muslim,General,IPC-406,1,Private Advocate
+CAS-2026-00683,Maharashtra,Male,Hindu,OBC,IPC-420,1,Legal Aid
+CAS-2026-00684,Bihar,Female,Hindu,General,IPC-378,0,Private Advocate
+CAS-2026-00685,Delhi,Male,Hindu,OBC,IPC-406,1,Private Advocate
+CAS-2026-00686,Tamil Nadu,Female,Hindu,OBC,IPC-406,1,Private Advocate
+CAS-2026-00687,Tamil Nadu,Female,Hindu,SC,IPC-420,0,Private Advocate
+CAS-2026-00688,Uttar Pradesh,Male,Hindu,General,IPC-302,1,Self
+CAS-2026-00689,West Bengal,Male,Hindu,General,IPC-406,0,Private Advocate
+CAS-2026-00690,Maharashtra,Female,Hindu,General,IPC-302,1,Private Advocate
+CAS-2026-00691,Uttar Pradesh,Male,Hindu,SC,IPC-302,1,Private Advocate
+CAS-2026-00692,Karnataka,Male,Hindu,OBC,BNS-318,1,Private Advocate
+CAS-2026-00693,Karnataka,Male,Hindu,OBC,IPC-420,1,Legal Aid
+CAS-2026-00694,Uttar Pradesh,Male,Hindu,General,IPC-302,1,Private Advocate
+CAS-2026-00695,Maharashtra,Male,Sikh,General,IPC-420,0,Private Advocate
+CAS-2026-00696,Tamil Nadu,Male,Hindu,General,BNS-318,0,Private Advocate
+CAS-2026-00697,Uttar Pradesh,Male,Hindu,ST,IPC-420,1,Private Advocate
+CAS-2026-00698,Tamil Nadu,Male,Hindu,OBC,IPC-406,0,Private Advocate
+CAS-2026-00699,Maharashtra,Female,Hindu,SC,IPC-302,0,Legal Aid
+CAS-2026-00700,Karnataka,Male,Hindu,General,IPC-420,1,Legal Aid
+CAS-2026-00701,Tamil Nadu,Female,Hindu,OBC,IPC-378,0,Legal Aid
+CAS-2026-00702,Maharashtra,Male,Sikh,OBC,IPC-420,0,Legal Aid
+CAS-2026-00703,Uttar Pradesh,Male,Hindu,General,IPC-302,1,Private Advocate
+CAS-2026-00704,Maharashtra,Male,Hindu,SC,BNS-318,0,Private Advocate
+CAS-2026-00705,Maharashtra,Male,Hindu,SC,BNS-318,1,Legal Aid
+CAS-2026-00706,Kerala,Male,Muslim,SC,IPC-302,1,Legal Aid
+CAS-2026-00707,Uttar Pradesh,Male,Hindu,OBC,IPC-406,1,Legal Aid
+CAS-2026-00708,West Bengal,Male,Hindu,General,IPC-406,0,Private Advocate
+CAS-2026-00709,Uttar Pradesh,Male,Hindu,General,BNS-318,1,Private Advocate
+CAS-2026-00710,Bihar,Female,Hindu,ST,BNS-318,1,Legal Aid
+CAS-2026-00711,West Bengal,Male,Hindu,General,IPC-302,1,Legal Aid
+CAS-2026-00712,Tamil Nadu,Male,Hindu,OBC,IPC-406,0,Self
+CAS-2026-00713,Karnataka,Female,Hindu,OBC,BNS-318,1,Private Advocate
+CAS-2026-00714,Karnataka,Male,Hindu,OBC,IPC-406,1,Private Advocate
+CAS-2026-00715,Uttar Pradesh,Male,Hindu,ST,BNS-318,1,Private Advocate
+CAS-2026-00716,Delhi,Non-Binary,Hindu,General,IPC-420,1,Legal Aid
+CAS-2026-00717,West Bengal,Male,Hindu,General,IPC-378,1,Private Advocate
+CAS-2026-00718,Kerala,Female,Sikh,General,IPC-420,1,Private Advocate
+CAS-2026-00719,Maharashtra,Non-Binary,Muslim,General,BNS-318,0,Self
+CAS-2026-00720,Bihar,Male,Hindu,General,IPC-378,1,Private Advocate
+CAS-2026-00721,Kerala,Male,Muslim,General,IPC-378,0,Legal Aid
+CAS-2026-00722,Maharashtra,Male,Muslim,SC,BNS-318,1,Private Advocate
+CAS-2026-00723,Maharashtra,Male,Muslim,SC,BNS-318,0,Legal Aid
+CAS-2026-00724,Bihar,Male,Hindu,General,IPC-406,1,Private Advocate
+CAS-2026-00725,Tamil Nadu,Female,Hindu,General,BNS-318,0,Legal Aid
+CAS-2026-00726,West Bengal,Male,Hindu,unknown,IPC-302,1,Legal Aid
+CAS-2026-00727,Maharashtra,Male,Hindu,General,BNS-318,1,Private Advocate
+CAS-2026-00728,West Bengal,Non-Binary,Hindu,General,IPC-302,0,Private Advocate
+CAS-2026-00729,Uttar Pradesh,Female,Hindu,General,BNS-318,0,Private Advocate
+CAS-2026-00730,Maharashtra,Male,Hindu,OBC,IPC-406,0,Private Advocate
+CAS-2026-00731,Maharashtra,Male,Hindu,General,IPC-302,1,Legal Aid
+CAS-2026-00732,West Bengal,Male,Hindu,ST,IPC-420,1,Private Advocate
+CAS-2026-00733,Bihar,Male,Hindu,General,IPC-302,1,Private Advocate
+CAS-2026-00734,Karnataka,Male,Christian,OBC,IPC-406,0,Private Advocate
+CAS-2026-00735,Uttar Pradesh,Male,Christian,General,IPC-302,1,Legal Aid
+CAS-2026-00736,Delhi,Female,Muslim,OBC,BNS-318,1,Self
+CAS-2026-00737,Karnataka,Male,Other,OBC,BNS-318,1,Private Advocate
+CAS-2026-00738,West Bengal,Male,Hindu,OBC,IPC-406,1,Private Advocate
+CAS-2026-00739,Karnataka,Male,Sikh,OBC,IPC-378,0,Private Advocate
+CAS-2026-00740,Uttar Pradesh,Male,Hindu,OBC,BNS-318,0,Private Advocate
+CAS-2026-00741,Karnataka,Female,Hindu,SC,IPC-420,0,Private Advocate
+CAS-2026-00742,Uttar Pradesh,Female,Hindu,SC,IPC-406,0,Private Advocate
+CAS-2026-00743,Bihar,Female,Hindu,OBC,IPC-302,0,Private Advocate
+CAS-2026-00744,Karnataka,Male,Hindu,General,IPC-302,0,Private Advocate
+CAS-2026-00745,Uttar Pradesh,Male,,General,IPC-420,0,Private Advocate
+CAS-2026-00746,Delhi,Male,Muslim,General,BNS-318,1,Private Advocate
+CAS-2026-00747,Karnataka,Male,Hindu,OBC,IPC-406,1,Private Advocate
+CAS-2026-00748,Tamil Nadu,Male,Hindu,General,IPC-420,1,Legal Aid
+CAS-2026-00749,Delhi,Female,Muslim,General,BNS-318,1,Legal Aid
+CAS-2026-00750,Tamil Nadu,Male,Hindu,SC,IPC-406,0,Private Advocate
+CAS-2026-00751,Maharashtra,Male,Hindu,SC,IPC-302,1,Private Advocate
+CAS-2026-00752,Kerala,Male,Hindu,SC,IPC-406,0,Legal Aid
+CAS-2026-00753,Tamil Nadu,Male,Hindu,General,IPC-378,1,Self
+CAS-2026-00754,Uttar Pradesh,Male,Hindu,OBC,IPC-406,0,Private Advocate
+CAS-2026-00755,Maharashtra,Female,Muslim,General,IPC-378,1,Private Advocate
+CAS-2026-00756,West Bengal,Female,Hindu,General,IPC-406,0,Private Advocate
+CAS-2026-00757,Tamil Nadu,Female,Hindu,General,IPC-378,0,Private Advocate
+CAS-2026-00758,Tamil Nadu,Male,Muslim,General,IPC-302,1,Private Advocate
+CAS-2026-00759,Delhi,Male,Hindu,General,BNS-318,0,Private Advocate
+CAS-2026-00760,West Bengal,Male,Hindu,unknown,IPC-378,1,Private Advocate
+CAS-2026-00761,Maharashtra,Male,Hindu,General,IPC-378,1,Private Advocate
+CAS-2026-00762,Uttar Pradesh,Female,Hindu,OBC,IPC-302,1,Private Advocate
+CAS-2026-00763,Uttar Pradesh,Male,Hindu,OBC,IPC-378,1,Private Advocate
+CAS-2026-00764,Bihar,Male,Hindu,General,IPC-420,1,Private Advocate
+CAS-2026-00765,Maharashtra,Male,Hindu,OBC,IPC-302,0,Private Advocate
+CAS-2026-00766,Tamil Nadu,Male,Christian,General,IPC-420,1,Private Advocate
+CAS-2026-00767,West Bengal,Female,,OBC,IPC-302,1,Legal Aid
+CAS-2026-00768,Delhi,Male,Hindu,General,IPC-378,1,Private Advocate
+CAS-2026-00769,Uttar Pradesh,Male,Hindu,General,IPC-420,0,Legal Aid
+CAS-2026-00770,West Bengal,Male,Hindu,General,IPC-378,1,Legal Aid
+CAS-2026-00771,Maharashtra,Male,Hindu,OBC,IPC-302,1,Private Advocate
+CAS-2026-00772,West Bengal,Female,Hindu,SC,IPC-378,1,Private Advocate
+CAS-2026-00773,Maharashtra,Female,Muslim,General,IPC-420,1,Private Advocate
+CAS-2026-00774,Karnataka,Female,Hindu,OBC,IPC-420,0,Legal Aid
+CAS-2026-00775,West Bengal,Female,Hindu,OBC,IPC-378,0,Legal Aid
+CAS-2026-00776,Maharashtra,Male,Hindu,SC,IPC-406,1,Legal Aid
+CAS-2026-00777,Uttar Pradesh,Female,Hindu,SC,IPC-302,1,Private Advocate
+CAS-2026-00778,Bihar,Male,Hindu,OBC,IPC-302,1,Private Advocate
+CAS-2026-00779,Bihar,Male,Hindu,OBC,IPC-378,0,Private Advocate
+CAS-2026-00780,Tamil Nadu,Female,Hindu,SC,IPC-406,1,Private Advocate
+CAS-2026-00781,Bihar,Male,Hindu,General,IPC-420,1,Private Advocate
+CAS-2026-00782,Tamil Nadu,Female,Muslim,General,BNS-318,1,Private Advocate
+CAS-2026-00783,Uttar Pradesh,Male,Jain,General,BNS-318,1,Legal Aid
+CAS-2026-00784,Uttar Pradesh,Male,Muslim,SC,IPC-378,0,Private Advocate
+CAS-2026-00785,Maharashtra,Female,Muslim,SC,IPC-406,1,Private Advocate
+CAS-2026-00786,Delhi,Female,Hindu,General,IPC-406,0,Private Advocate
+CAS-2026-00787,Tamil Nadu,Male,Sikh,OBC,IPC-302,1,Legal Aid
+CAS-2026-00788,Karnataka,Male,Hindu,OBC,IPC-420,0,Legal Aid
+CAS-2026-00789,Karnataka,Male,Christian,General,IPC-406,1,Private Advocate
+CAS-2026-00790,Kerala,Male,Other,ST,BNS-318,0,Private Advocate
+CAS-2026-00791,Maharashtra,Male,Hindu,General,IPC-420,1,Private Advocate
+CAS-2026-00792,Tamil Nadu,Female,Jain,General,IPC-420,1,Legal Aid
+CAS-2026-00793,Karnataka,Male,Hindu,OBC,IPC-378,1,Private Advocate
+CAS-2026-00794,Tamil Nadu,Female,Hindu,OBC,IPC-406,0,Private Advocate
+CAS-2026-00795,Maharashtra,Male,Hindu,General,IPC-378,0,Private Advocate
+CAS-2026-00796,Delhi,Male,Hindu,OBC,IPC-406,0,Private Advocate
+CAS-2026-00797,Kerala,Female,Hindu,OBC,IPC-302,1,Legal Aid
+CAS-2026-00798,Tamil Nadu,Male,Hindu,General,IPC-378,0,Private Advocate
+CAS-2026-00799,Bihar,Male,Jain,General,IPC-378,1,Private Advocate
+CAS-2026-00800,Delhi,Male,Hindu,OBC,BNS-318,1,Private Advocate
+CAS-2026-00801,Bihar,Female,Muslim,General,IPC-378,1,Private Advocate
+CAS-2026-00802,Maharashtra,Female,Muslim,SC,IPC-406,1,Legal Aid
+CAS-2026-00803,Tamil Nadu,Male,Christian,SC,BNS-318,1,Private Advocate
+CAS-2026-00804,Tamil Nadu,Male,Sikh,ST,IPC-378,0,Legal Aid
+CAS-2026-00805,Karnataka,Male,Hindu,General,IPC-378,1,Legal Aid
+CAS-2026-00806,Bihar,Female,Sikh,ST,IPC-302,1,Private Advocate
+CAS-2026-00807,Kerala,Female,Hindu,General,IPC-378,0,Private Advocate
+CAS-2026-00808,Delhi,Male,Hindu,General,IPC-420,1,Private Advocate
+CAS-2026-00809,Karnataka,Male,Hindu,General,BNS-318,1,Legal Aid
+CAS-2026-00810,Maharashtra,Male,Hindu,General,IPC-420,1,Private Advocate
+CAS-2026-00811,Kerala,Female,Hindu,unknown,BNS-318,0,Private Advocate
+CAS-2026-00812,West Bengal,Female,Hindu,OBC,IPC-302,1,Private Advocate
+CAS-2026-00813,Maharashtra,Male,Hindu,General,IPC-378,0,Legal Aid
+CAS-2026-00814,Delhi,Male,Hindu,OBC,IPC-378,0,Private Advocate
+CAS-2026-00815,Delhi,Male,Hindu,General,IPC-378,1,Private Advocate
+CAS-2026-00816,Karnataka,Female,Hindu,OBC,BNS-318,1,Private Advocate
+CAS-2026-00817,Tamil Nadu,Male,Hindu,General,IPC-378,1,Private Advocate
+CAS-2026-00818,Karnataka,Female,Hindu,SC,IPC-420,0,Legal Aid
+CAS-2026-00819,Maharashtra,Male,Hindu,SC,IPC-378,1,Private Advocate
+CAS-2026-00820,Uttar Pradesh,Male,Hindu,OBC,IPC-302,1,Legal Aid
+CAS-2026-00821,West Bengal,Male,Christian,General,IPC-420,0,Private Advocate
+CAS-2026-00822,Maharashtra,Male,Hindu,General,IPC-378,1,Private Advocate
+CAS-2026-00823,Uttar Pradesh,Male,Hindu,SC,IPC-378,0,Private Advocate
+CAS-2026-00824,Karnataka,Female,Hindu,General,IPC-406,1,Private Advocate
+CAS-2026-00825,Tamil Nadu,Male,Hindu,General,BNS-318,1,Private Advocate
+CAS-2026-00826,Delhi,Male,Muslim,General,IPC-420,0,Private Advocate
+CAS-2026-00827,Uttar Pradesh,Male,Hindu,OBC,IPC-406,0,Private Advocate
+CAS-2026-00828,Uttar Pradesh,Female,Hindu,OBC,IPC-302,0,Private Advocate
+CAS-2026-00829,Bihar,Female,Hindu,SC,BNS-318,0,Private Advocate
+CAS-2026-00830,Karnataka,Male,Hindu,General,IPC-420,1,Legal Aid
+CAS-2026-00831,Uttar Pradesh,Female,Hindu,General,IPC-378,1,Private Advocate
+CAS-2026-00832,Karnataka,Male,Hindu,unknown,IPC-420,0,Private Advocate
+CAS-2026-00833,Maharashtra,Male,,SC,IPC-378,0,Private Advocate
+CAS-2026-00834,Maharashtra,Female,Hindu,General,BNS-318,1,Legal Aid
+CAS-2026-00835,Karnataka,Female,Hindu,OBC,IPC-378,1,Legal Aid
+CAS-2026-00836,Karnataka,Female,Muslim,General,IPC-302,0,Private Advocate
+CAS-2026-00837,Delhi,Male,Other,SC,IPC-378,0,Legal Aid
+CAS-2026-00838,Uttar Pradesh,Male,Hindu,General,IPC-302,1,Private Advocate
+CAS-2026-00839,Tamil Nadu,Female,Hindu,unknown,BNS-318,0,Private Advocate
+CAS-2026-00840,Tamil Nadu,Male,Hindu,OBC,BNS-318,0,Legal Aid
+CAS-2026-00841,Maharashtra,Male,Hindu,OBC,IPC-420,1,Legal Aid
+CAS-2026-00842,Bihar,Male,Hindu,General,IPC-302,1,Private Advocate
+CAS-2026-00843,Maharashtra,Male,Muslim,OBC,IPC-302,1,Legal Aid
+CAS-2026-00844,Kerala,Male,Christian,General,IPC-406,1,Private Advocate
+CAS-2026-00845,Maharashtra,Female,Hindu,General,IPC-406,1,Legal Aid
+CAS-2026-00846,Karnataka,Male,Hindu,OBC,IPC-406,0,Private Advocate
+CAS-2026-00847,Maharashtra,Male,Muslim,ST,IPC-378,0,Private Advocate
+CAS-2026-00848,Kerala,Male,Hindu,OBC,IPC-406,0,Private Advocate
+CAS-2026-00849,Karnataka,Female,Hindu,OBC,IPC-302,0,Private Advocate
+CAS-2026-00850,Tamil Nadu,Male,Hindu,General,IPC-378,1,Private Advocate
+CAS-2026-00851,Maharashtra,Male,Hindu,General,BNS-318,1,Private Advocate
+CAS-2026-00852,Bihar,Female,Hindu,General,IPC-420,1,Private Advocate
+CAS-2026-00853,Uttar Pradesh,Female,Hindu,OBC,IPC-406,1,Private Advocate
+CAS-2026-00854,Delhi,Female,Muslim,SC,BNS-318,0,Private Advocate
+CAS-2026-00855,Uttar Pradesh,Female,Hindu,OBC,IPC-302,0,Private Advocate
+CAS-2026-00856,Maharashtra,Male,Hindu,General,IPC-420,1,Private Advocate
+CAS-2026-00857,Maharashtra,Female,Hindu,General,BNS-318,1,Legal Aid
+CAS-2026-00858,Karnataka,Male,Hindu,OBC,IPC-420,1,Legal Aid
+CAS-2026-00859,Tamil Nadu,Female,Hindu,General,IPC-406,1,Legal Aid
+CAS-2026-00860,Maharashtra,Female,Hindu,SC,IPC-302,1,Private Advocate
+CAS-2026-00861,West Bengal,Female,Muslim,SC,IPC-420,1,Legal Aid
+CAS-2026-00862,Karnataka,Female,Hindu,OBC,BNS-318,0,Private Advocate
+CAS-2026-00863,Karnataka,Male,Christian,General,IPC-406,1,Private Advocate
+CAS-2026-00864,Karnataka,Male,Hindu,General,IPC-406,1,Private Advocate
+CAS-2026-00865,Karnataka,Non-Binary,Hindu,General,BNS-318,0,Legal Aid
+CAS-2026-00866,Tamil Nadu,Female,Hindu,General,BNS-318,1,Private Advocate
+CAS-2026-00867,Maharashtra,Male,Hindu,General,IPC-420,0,Private Advocate
+CAS-2026-00868,Maharashtra,Male,Hindu,OBC,IPC-378,1,Private Advocate
+CAS-2026-00869,Delhi,Male,Hindu,OBC,IPC-406,0,Legal Aid
+CAS-2026-00870,Kerala,Female,Hindu,General,IPC-420,1,Private Advocate
+CAS-2026-00871,Uttar Pradesh,Female,Muslim,General,BNS-318,0,Private Advocate
+CAS-2026-00872,Uttar Pradesh,Male,Christian,General,IPC-420,1,Private Advocate
+CAS-2026-00873,Tamil Nadu,Male,Muslim,General,BNS-318,0,Private Advocate
+CAS-2026-00874,Karnataka,Female,Hindu,SC,IPC-302,0,Private Advocate
+CAS-2026-00875,Maharashtra,Female,Muslim,General,BNS-318,1,Private Advocate
+CAS-2026-00876,Maharashtra,Male,Hindu,General,BNS-318,1,Legal Aid
+CAS-2026-00877,Bihar,Male,Hindu,General,BNS-318,0,Private Advocate
+CAS-2026-00878,Bihar,Male,Hindu,SC,IPC-378,0,Private Advocate
+CAS-2026-00879,Maharashtra,Male,Hindu,OBC,BNS-318,1,Private Advocate
+CAS-2026-00880,Uttar Pradesh,Male,Hindu,General,IPC-406,1,Private Advocate
+CAS-2026-00881,Uttar Pradesh,Female,Hindu,OBC,IPC-406,1,Private Advocate
+CAS-2026-00882,Bihar,Female,Muslim,OBC,IPC-420,0,Private Advocate
+CAS-2026-00883,Maharashtra,Male,Hindu,ST,IPC-378,1,Private Advocate
+CAS-2026-00884,Maharashtra,Female,Hindu,General,IPC-420,0,Legal Aid
+CAS-2026-00885,West Bengal,Male,Hindu,SC,IPC-406,0,Private Advocate
+CAS-2026-00886,Maharashtra,Male,Christian,SC,IPC-406,1,Private Advocate
+CAS-2026-00887,Bihar,Male,Hindu,SC,IPC-302,1,Legal Aid
+CAS-2026-00888,Uttar Pradesh,Male,Hindu,OBC,BNS-318,1,Private Advocate
+CAS-2026-00889,Maharashtra,Female,Muslim,OBC,IPC-406,0,Legal Aid
+CAS-2026-00890,Uttar Pradesh,Non-Binary,Muslim,General,IPC-420,1,Private Advocate
+CAS-2026-00891,Bihar,Male,Hindu,OBC,IPC-420,0,Private Advocate
+CAS-2026-00892,Delhi,Male,Hindu,OBC,BNS-318,1,Legal Aid
+CAS-2026-00893,West Bengal,Female,Hindu,OBC,BNS-318,0,Private Advocate
+CAS-2026-00894,Karnataka,Male,Hindu,General,IPC-302,0,Private Advocate
+CAS-2026-00895,Bihar,Male,Hindu,OBC,IPC-378,0,Legal Aid
+CAS-2026-00896,Uttar Pradesh,Female,Muslim,SC,IPC-420,1,Private Advocate
+CAS-2026-00897,Uttar Pradesh,Male,Hindu,General,BNS-318,0,Private Advocate
+CAS-2026-00898,Delhi,Male,Hindu,SC,IPC-420,1,Private Advocate
+CAS-2026-00899,Maharashtra,Male,Hindu,OBC,BNS-318,0,Legal Aid
+CAS-2026-00900,Maharashtra,Female,Hindu,SC,IPC-406,1,Legal Aid
+CAS-2026-00901,Uttar Pradesh,Male,Hindu,General,IPC-420,0,Private Advocate
+CAS-2026-00902,Maharashtra,Male,Hindu,General,IPC-406,1,Private Advocate
+CAS-2026-00903,Maharashtra,Female,Hindu,SC,IPC-420,1,Legal Aid
+CAS-2026-00904,Tamil Nadu,Male,Hindu,General,IPC-378,0,Private Advocate
+CAS-2026-00905,Karnataka,Female,Hindu,SC,IPC-302,1,Private Advocate
+CAS-2026-00906,Delhi,Male,Hindu,OBC,IPC-406,1,Legal Aid
+CAS-2026-00907,West Bengal,Female,Sikh,OBC,BNS-318,1,Legal Aid
+CAS-2026-00908,Uttar Pradesh,Male,Hindu,General,IPC-378,1,Legal Aid
+CAS-2026-00909,Uttar Pradesh,Male,Hindu,OBC,IPC-420,0,Private Advocate
+CAS-2026-00910,Uttar Pradesh,Male,Hindu,General,IPC-406,0,Private Advocate
+CAS-2026-00911,Tamil Nadu,Male,Hindu,General,IPC-420,0,Private Advocate
+CAS-2026-00912,Uttar Pradesh,Female,Hindu,General,IPC-420,0,Private Advocate
+CAS-2026-00913,Tamil Nadu,Non-Binary,Hindu,General,IPC-420,0,Private Advocate
+CAS-2026-00914,Karnataka,Male,Sikh,ST,IPC-302,0,Legal Aid
+CAS-2026-00915,Tamil Nadu,Male,Hindu,ST,IPC-302,1,Private Advocate
+CAS-2026-00916,Karnataka,Female,Hindu,General,BNS-318,1,Legal Aid
+CAS-2026-00917,Uttar Pradesh,Female,Hindu,OBC,IPC-406,0,Private Advocate
+CAS-2026-00918,Kerala,Male,Muslim,General,IPC-378,0,Private Advocate
+CAS-2026-00919,West Bengal,Male,Hindu,OBC,IPC-378,1,Private Advocate
+CAS-2026-00920,Maharashtra,Male,Hindu,SC,IPC-378,0,Private Advocate
+CAS-2026-00921,Delhi,Female,Hindu,SC,IPC-420,0,Private Advocate
+CAS-2026-00922,Karnataka,Male,Hindu,General,IPC-302,0,Self
+CAS-2026-00923,Delhi,Male,Muslim,OBC,IPC-406,1,Legal Aid
+CAS-2026-00924,West Bengal,Male,Hindu,General,IPC-420,1,Private Advocate
+CAS-2026-00925,Karnataka,Female,Hindu,ST,IPC-302,0,Private Advocate
+CAS-2026-00926,Maharashtra,Male,Muslim,General,IPC-302,1,Legal Aid
+CAS-2026-00927,Uttar Pradesh,Male,Muslim,OBC,IPC-406,1,Private Advocate
+CAS-2026-00928,Tamil Nadu,Male,Jain,OBC,IPC-406,1,Private Advocate
+CAS-2026-00929,Tamil Nadu,Male,Hindu,OBC,IPC-406,1,Private Advocate
+CAS-2026-00930,Uttar Pradesh,Male,Hindu,General,IPC-420,1,Legal Aid
+CAS-2026-00931,Maharashtra,Male,Hindu,SC,BNS-318,0,Private Advocate
+CAS-2026-00932,West Bengal,Male,Hindu,General,IPC-406,0,Private Advocate
+CAS-2026-00933,Kerala,Male,Hindu,OBC,BNS-318,1,Legal Aid
+CAS-2026-00934,Karnataka,Male,Hindu,General,IPC-420,1,Private Advocate
+CAS-2026-00935,Maharashtra,Female,Hindu,General,BNS-318,1,Private Advocate
+CAS-2026-00936,Uttar Pradesh,Female,Hindu,OBC,IPC-378,1,Private Advocate
+CAS-2026-00937,Maharashtra,Male,Muslim,General,BNS-318,1,Legal Aid
+CAS-2026-00938,Delhi,Female,Hindu,General,IPC-406,0,Private Advocate
+CAS-2026-00939,Maharashtra,Male,Christian,General,IPC-420,1,Self
+CAS-2026-00940,Tamil Nadu,Male,Hindu,General,IPC-406,1,Private Advocate
+CAS-2026-00941,Uttar Pradesh,Male,Hindu,OBC,IPC-378,1,Private Advocate
+CAS-2026-00942,Tamil Nadu,Male,Hindu,SC,IPC-406,1,Self
+CAS-2026-00943,Bihar,Female,Hindu,General,IPC-406,1,Private Advocate
+CAS-2026-00944,West Bengal,Female,Hindu,General,IPC-406,0,Private Advocate
+CAS-2026-00945,Uttar Pradesh,Female,Hindu,General,IPC-302,1,Private Advocate
+CAS-2026-00946,Maharashtra,Male,Hindu,General,IPC-378,0,Private Advocate
+CAS-2026-00947,Maharashtra,Male,Hindu,OBC,IPC-406,1,Private Advocate
+CAS-2026-00948,Delhi,Male,Hindu,OBC,IPC-406,1,Private Advocate
+CAS-2026-00949,Delhi,Male,Hindu,unknown,IPC-406,0,Private Advocate
+CAS-2026-00950,Tamil Nadu,Male,Christian,General,IPC-420,1,Legal Aid
+CAS-2026-00951,Tamil Nadu,Male,Muslim,General,IPC-302,1,Private Advocate
+CAS-2026-00952,Bihar,Male,Hindu,SC,IPC-420,1,Self
+CAS-2026-00953,Maharashtra,Male,Hindu,ST,IPC-302,0,Private Advocate
+CAS-2026-00954,Delhi,Female,Hindu,General,IPC-406,1,Private Advocate
+CAS-2026-00955,Karnataka,Non-Binary,Christian,General,IPC-378,1,Private Advocate
+CAS-2026-00956,Karnataka,Female,Hindu,SC,BNS-318,1,Private Advocate
+CAS-2026-00957,Karnataka,Male,Hindu,unknown,BNS-318,0,Private Advocate
+CAS-2026-00958,Maharashtra,Male,Muslim,General,IPC-406,1,Legal Aid
+CAS-2026-00959,Maharashtra,Male,Hindu,General,IPC-420,1,Legal Aid
+CAS-2026-00960,Bihar,Female,Muslim,General,IPC-378,0,Self
+CAS-2026-00961,Maharashtra,Male,Hindu,unknown,IPC-302,0,Private Advocate
+CAS-2026-00962,Tamil Nadu,Male,Hindu,General,IPC-406,0,Legal Aid
+CAS-2026-00963,Uttar Pradesh,Female,Hindu,General,IPC-378,1,Private Advocate
+CAS-2026-00964,Karnataka,Male,Sikh,OBC,IPC-378,1,Private Advocate
+CAS-2026-00965,Uttar Pradesh,Male,Muslim,General,IPC-302,1,Legal Aid
+CAS-2026-00966,Uttar Pradesh,Male,Hindu,OBC,IPC-378,0,Private Advocate
+CAS-2026-00967,Bihar,Male,Hindu,General,IPC-420,1,Private Advocate
+CAS-2026-00968,Uttar Pradesh,Male,Hindu,General,IPC-420,0,Private Advocate
+CAS-2026-00969,Tamil Nadu,Male,Christian,OBC,IPC-420,0,Private Advocate
+CAS-2026-00970,Karnataka,Male,Hindu,unknown,IPC-378,1,Legal Aid
+CAS-2026-00971,Bihar,Male,Hindu,ST,IPC-420,0,Private Advocate
+CAS-2026-00972,Kerala,Female,Hindu,OBC,IPC-302,1,Self
+CAS-2026-00973,Bihar,Male,Muslim,General,IPC-378,0,Private Advocate
+CAS-2026-00974,Uttar Pradesh,Male,Hindu,OBC,BNS-318,1,Private Advocate
+CAS-2026-00975,Maharashtra,Male,Hindu,General,IPC-378,0,Private Advocate
+CAS-2026-00976,Uttar Pradesh,Female,Hindu,SC,IPC-302,1,Private Advocate
+CAS-2026-00977,Tamil Nadu,Male,Muslim,General,BNS-318,0,Private Advocate
+CAS-2026-00978,Maharashtra,Male,Hindu,OBC,IPC-378,0,Legal Aid
+CAS-2026-00979,Karnataka,Female,Hindu,General,IPC-420,1,Legal Aid
+CAS-2026-00980,Tamil Nadu,Female,Sikh,General,IPC-406,0,Legal Aid
+CAS-2026-00981,Uttar Pradesh,Male,Hindu,unknown,IPC-406,1,Legal Aid
+CAS-2026-00982,West Bengal,Female,Hindu,SC,IPC-420,1,Legal Aid
+CAS-2026-00983,Maharashtra,Male,Hindu,General,IPC-406,0,Private Advocate
+CAS-2026-00984,Maharashtra,Male,Muslim,General,IPC-406,0,Legal Aid
+CAS-2026-00985,Bihar,Male,Hindu,SC,IPC-420,1,Private Advocate
+CAS-2026-00986,Karnataka,Male,Sikh,SC,IPC-420,1,Private Advocate
+CAS-2026-00987,Bihar,Female,Hindu,General,IPC-378,1,Private Advocate
+CAS-2026-00988,Karnataka,Male,Hindu,OBC,IPC-378,1,Private Advocate
+CAS-2026-00989,Uttar Pradesh,Male,Hindu,General,IPC-420,1,Private Advocate
+CAS-2026-00990,West Bengal,Female,Muslim,SC,IPC-302,0,Self
+CAS-2026-00991,West Bengal,Female,Hindu,General,IPC-406,1,Private Advocate
+CAS-2026-00992,Bihar,Male,Muslim,General,IPC-378,1,Private Advocate
+CAS-2026-00993,Uttar Pradesh,Male,Hindu,OBC,IPC-406,0,Private Advocate
+CAS-2026-00994,Tamil Nadu,Male,Hindu,General,BNS-318,0,Private Advocate
+CAS-2026-00995,Uttar Pradesh,Female,Hindu,unknown,IPC-420,0,Private Advocate
+CAS-2026-00996,Maharashtra,Female,Muslim,General,IPC-302,0,Private Advocate
+CAS-2026-00997,Delhi,Female,Hindu,unknown,BNS-318,1,Private Advocate
+CAS-2026-00998,Maharashtra,Male,Hindu,General,BNS-318,0,Private Advocate
+CAS-2026-00999,Kerala,Male,Hindu,OBC,BNS-318,0,Legal Aid
+CAS-2026-01000,Karnataka,Male,Muslim,General,IPC-420,0,Legal Aid
