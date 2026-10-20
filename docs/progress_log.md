@@ -115,7 +115,51 @@ This log records every completed work unit, actual test execution outcomes, veri
   - `docs/phase_2_report.md`
 - **Known Failures & Limitations:**
   - Live network calls to OpenRouter require setting `OPENROUTER_API_KEY` and disabling `offline_mode`. Offline mock mode is verified and passing.
+- **Git Commit Hash:** `ba2b8f7`
+- **Push Status:** Pushed successfully to `origin/main`.
+- **Remaining Work:**
+  - Proceed to Phase 3: Dataset Discovery Engine.
+
+---
+
+## Unit 3: Phase 3 — Multi-Source Dataset Discovery Engine, Normalized Schema & Offline Fixtures
+- **Date:** 2026-10-20
+- **Phase & Task:** Phase 3 — Dataset Discovery Engine
+- **Files Changed:**
+  - `src/fairlens/discovery/__init__.py` (Created)
+  - `src/fairlens/discovery/schema.py` (Created: NormalizedDatasetMetadata, DiscoveryQuery, DiscoveryResult)
+  - `src/fairlens/discovery/base.py` (Created: BaseDiscoveryAdapter with complete error containment)
+  - `src/fairlens/discovery/adapters/huggingface.py` (Created: Hugging Face API adapter)
+  - `src/fairlens/discovery/adapters/zenodo.py` (Created: Zenodo REST API adapter)
+  - `src/fairlens/discovery/adapters/data_gov.py` (Created: Data.gov CKAN API adapter)
+  - `src/fairlens/discovery/adapters/uci.py` (Created: UCI ML Repository adapter)
+  - `src/fairlens/discovery/adapters/kaggle.py` (Created: Kaggle adapter with auth checks)
+  - `src/fairlens/discovery/engine.py` (Created: Discovery orchestrator with deduplication, sorting, and export)
+  - `src/fairlens/discovery/cli.py` (Created: Discovery CLI interface)
+  - `tests/fixtures/discovery/sample_datasets.json` (Created: Deterministic offline fixtures)
+  - `tests/unit/test_discovery_schema.py` (Created: 2 unit tests for metadata completeness and suitability)
+  - `tests/unit/test_discovery_engine.py` (Created: 6 unit tests for search, filtering, deduplication, error isolation, export)
+  - `docs/phase_3_report.md` (Created: Provider integration audit and schema specification)
+  - `docs/progress_log.md` (Updated)
+- **Work Actually Completed:**
+  - Designed and implemented shared metadata schema `NormalizedDatasetMetadata` capturing 20+ fields.
+  - Implemented provider adapters for Hugging Face Hub, Zenodo, Data.gov, UCI, and Kaggle.
+  - Built error containment architecture ensuring single-provider failures do not crash the engine.
+  - Implemented deduplication by canonical URL and multi-criteria sorting by metadata completeness.
+  - Created deterministic offline fixtures supporting reproducible zero-network execution.
+  - Added JSON and CSV export formats for discovered dataset records.
+- **Commands Executed:**
+  - `$env:PYTHONPATH="src"; python -m unittest discover -s tests -p "test_*.py" -v`
+- **Tests Run & Outcomes:**
+  - `test_discovery_schema.py`: 2 passed.
+  - `test_discovery_engine.py`: 6 passed.
+  - Total test suite: 21 passed in 0.086s.
+- **Evidence Produced:**
+  - `docs/phase_3_report.md`
+  - `tests/fixtures/discovery/sample_datasets.json`
+- **Known Failures & Limitations:**
+  - Live Kaggle queries require configuring `KAGGLE_USERNAME` and `KAGGLE_KEY`. Graceful fallback to offline fixtures verified.
 - **Git Commit Hash:** Pending commit.
 - **Push Status:** Pending.
 - **Remaining Work:**
-  - Commit and push Unit 2. Proceed to Phase 3: Dataset Discovery Engine.
+  - Commit and push Unit 3. Proceed to Phase 4: Dataset Representation-Gap Detection Engine.
