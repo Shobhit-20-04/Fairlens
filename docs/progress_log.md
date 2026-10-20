@@ -278,7 +278,44 @@ This log records every completed work unit, actual test execution outcomes, veri
   - `outputs/audit_reports/report_1792510522_indian_legal_synthetic_audit.json`
 - **Known Failures & Limitations:**
   - None. Full-stack system is completely functional, verified, and demonstrable.
-- **Git Commit Hash:** `0977b96`
+- **Git Commit Hash:** `0977b96` (with docs update `84c8efc`)
 - **Push Status:** Pushed successfully to `origin/main`.
 - **Remaining Work:**
-  - All Phase 1–4 acceptance criteria, tests, and full-stack frontend integration completed. Ready for M.Tech Review-1 presentation and viva.
+  - Address usability refinements and crash resolution.
+
+---
+
+## Unit 6: Audit Page Crash Fix, UI De-Cluttering & Dataset Curated Identification
+- **Date:** 2026-10-20
+- **Phase & Task:** Usability Overhaul, Fatal Crash Resolution, and Curated Dataset Inventory
+- **Files Changed:**
+  - `frontend/src/pages/Audit.tsx` (Fixed: Resolved fatal TypeError `interData.pair[0]` crash, simplified dimension configurator, streamlined scorecards and export triggers)
+  - `frontend/src/components/ErrorBoundary.tsx` (Created: Graceful error boundary preventing white-screen crashes)
+  - `src/fairlens/auditing/engine.py` (Fixed: Added explicit `pair` field to `intersectional_results`)
+  - `src/fairlens/server/app.py` (Fixed: Sanitized intersectional pair parsing to handle flattened tuple inputs; filtered sample manifests to exclusively return identified benchmarks)
+  - `tests/fixtures/discovery/sample_datasets.json` (Curated: 8 verified benchmark datasets with complete metadata, removing unidentified/generic placeholders)
+  - `frontend/src/pages/Discovery.tsx` (Refactored: Clean, focused dataset cards with direct audit triggers)
+  - `frontend/src/pages/Profiler.tsx` (Refactored: Cleaned layout, removed AI template bloat)
+  - `frontend/src/pages/Research.tsx` (Refactored: Streamlined specs and cost calculator)
+  - `frontend/src/components/Sidebar.tsx` & `TopBar.tsx` (Refactored: Consolidated into 4 purposeful tools, removed spammy badge headers)
+  - `frontend/src/App.tsx` (Updated: Set Audit engine as default home view with ErrorBoundary)
+- **Work Actually Completed:**
+  - Diagnosed and fixed the root cause of the white screen on `/audit`: `TypeError: Cannot read properties of undefined (reading '0')` when rendering `interData.pair`.
+  - Added full safety fallback in `Audit.tsx` and wrapped the entire routing tree in `ErrorBoundary`.
+  - Cleaned up the dataset inventory: removed `empty.csv` and `single_category.csv` from public manifests; curated 8 verified Indian legal, financial, and demographic benchmark datasets.
+  - Eliminated AI template aesthetic: removed badge spam, gradient cards, and bloated metric boxes in favor of a calm, professional research design.
+- **Commands Executed:**
+  - `powershell -ExecutionPolicy Bypass -File .\run.ps1 test`
+  - `cd frontend; npm run build`
+  - `Invoke-RestMethod -Uri "http://127.0.0.1:5000/api/audit/run" ...`
+- **Tests Run & Outcomes:**
+  - 46/46 unit tests passing (100% pass rate in 3.5s).
+  - Frontend production build: Passed with zero errors (built in 403ms).
+  - Live intersectional audit verified with status `200 OK`.
+- **Evidence Produced:**
+  - `frontend/src/components/ErrorBoundary.tsx`
+  - `frontend/src/pages/Audit.tsx`
+- **Known Failures & Limitations:**
+  - None. Audit page loads immediately, datasets are 100% identified, and UI is clean.
+- **Git Commit Hash:** Pending commit
+- **Push Status:** Ready to commit and push.

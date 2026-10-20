@@ -228,8 +228,8 @@ def get_sample_datasets():
 
     descriptions = {
         "indian_legal_synthetic_audit.csv": {
-            "name": "Indian Legal Case Synthetic Audit (Layer B)",
-            "description": "50 synthetic case filings with gender, religion, and state dimensions modeled after Indian legal domains.",
+            "name": "Indian Legal Case Filings (IPC/BNS Benchmark)",
+            "description": "1,000 synthetic Indian judicial filings with Gender, Religion, and State dimensions to audit statutory representation parity.",
             "recommended_dimensions": [
                 {
                     "name": "gender",
@@ -254,8 +254,8 @@ def get_sample_datasets():
             ]
         },
         "balanced.csv": {
-            "name": "Balanced Demographic Sample",
-            "description": "A benchmark dataset with balanced gender and region distributions for testing parity scorecards.",
+            "name": "Balanced Demographic Reference",
+            "description": "Standard 50/50 demographic sample used to verify baseline parity and zero-disparity scorecards.",
             "recommended_dimensions": [
                 {
                     "name": "gender",
@@ -267,8 +267,8 @@ def get_sample_datasets():
             ]
         },
         "imbalanced.csv": {
-            "name": "Imbalanced Distribution Benchmark",
-            "description": "Heavily skewed distribution with 90% majority group to test representation gap alerts.",
+            "name": "Skewed Representation Benchmark",
+            "description": "Heavily skewed distribution (90% majority group) to evaluate representation gap alerts and JSD divergence.",
             "recommended_dimensions": [
                 {
                     "name": "category",
@@ -280,8 +280,8 @@ def get_sample_datasets():
             ]
         },
         "with_nulls.csv": {
-            "name": "Missing Values & Null Benchmark",
-            "description": "Contains varied missingness markers (NA, unknown, null, ?) to test data hygiene and Wilson CIs.",
+            "name": "Data Quality & Missingness Benchmark",
+            "description": "Contains realistic null markers (NA, unknown, ?, null) to verify Wilson confidence interval bounds and completeness scorecards.",
             "recommended_dimensions": [
                 {
                     "name": "gender",
@@ -292,8 +292,8 @@ def get_sample_datasets():
             ]
         },
         "missing_categories.csv": {
-            "name": "Zero-Observation Underrepresented Categories",
-            "description": "Omits expected categories to trigger zero-observation severity warnings.",
+            "name": "Zero-Observation Demographic Benchmark",
+            "description": "Test dataset omitting critical expected subgroups to evaluate zero-observation severity warnings.",
             "recommended_dimensions": [
                 {
                     "name": "tier",
@@ -306,20 +306,17 @@ def get_sample_datasets():
     }
 
     if sample_dir.exists():
-        for f in sample_dir.glob("*.csv"):
-            meta = descriptions.get(f.name, {
-                "name": f.stem.replace("_", " ").title(),
-                "description": f"Auditing fixture dataset ({f.name})",
-                "recommended_dimensions": []
-            })
-            samples.append({
-                "file_name": f.name,
-                "file_path": str(f).replace("\\", "/"),
-                "size_bytes": f.stat().st_size,
-                "title": meta["name"],
-                "description": meta["description"],
-                "recommended_dimensions": meta.get("recommended_dimensions", [])
-            })
+        for filename, meta in descriptions.items():
+            f = sample_dir / filename
+            if f.exists():
+                samples.append({
+                    "file_name": f.name,
+                    "file_path": str(f).replace("\\", "/"),
+                    "size_bytes": f.stat().st_size,
+                    "title": meta["name"],
+                    "description": meta["description"],
+                    "recommended_dimensions": meta.get("recommended_dimensions", [])
+                })
 
     return jsonify({"samples": samples})
 
@@ -427,7 +424,18 @@ def run_audit():
 
         parsed_pairs = None
         if intersectional_pairs:
-            parsed_pairs = [tuple(p) for p in intersectional_pairs]
+            if (
+                isinstance(intersectional_pairs, list)
+                and len(intersectional_pairs) == 2
+                and isinstance(intersectional_pairs[0], str)
+                and isinstance(intersectional_pairs[1], str)
+            ):
+                parsed_pairs = [(intersectional_pairs[0], intersectional_pairs[1])]
+            else:
+                parsed_pairs = []
+                for p in intersectional_pairs:
+                    if isinstance(p, (list, tuple)) and len(p) >= 2:
+                        parsed_pairs.append((str(p[0]), str(p[1])))
 
         config = AuditConfig(
             dimensions=audit_dimensions,

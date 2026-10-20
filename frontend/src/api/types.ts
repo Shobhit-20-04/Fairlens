@@ -197,11 +197,14 @@ export interface AuditReport {
   };
   dimensions: Record<string, DimensionResult>;
   intersectional_results: Record<string, {
-    pair: [string, string];
+    dimension_a?: string;
+    dimension_b?: string;
+    pair?: [string, string];
     total_valid_intersection: number;
     matrix: Record<string, Record<string, number>>;
     sparse_cell_count: number;
     zero_cells: [string, string][];
+    sparse_cells?: [string, string, number][];
   }>;
   total_warnings_count: number;
   high_severity_warnings: number;

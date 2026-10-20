@@ -293,6 +293,7 @@ class RepresentationAuditEngine:
                         self.config.missing_value_markers,
                         min_sample_size=30,
                     )
+                    inter_res["pair"] = [name_a, name_b]
                     intersectional_results[f"{name_a}__x__{name_b}"] = inter_res
 
         elapsed = time.time() - start_time
