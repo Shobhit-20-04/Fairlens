@@ -319,3 +319,43 @@ This log records every completed work unit, actual test execution outcomes, veri
   - None. Audit page loads immediately, datasets are 100% identified, and UI is clean.
 - **Git Commit Hash:** `6d3ef7f`
 - **Push Status:** Pushed successfully to `origin/main`.
+
+---
+
+## Unit 7: Comprehensive Research Paper Library — Download, Verification, Renaming & Organization
+- **Date:** 2026-10-22
+- **Phase & Task:** Research Infrastructure — Master Paper Collection & Verification Pipeline
+- **Files Changed:**
+  - `.gitignore` (Updated: Ignore `research_papers/**/*.pdf` to prevent repository bloat and preserve copyright while tracking metadata and markdown files)
+  - `scripts/paper_collector.py` (Created: Fully automated, idempotent, reproducible Python pipeline for paper downloading, PDF validation, title verification, renaming, and inventory logging)
+  - `research_papers/README.md` (Created: Architecture documentation, folder structure, renaming conventions, and reproduction commands)
+  - `research_papers/metadata/paper_inventory.csv` (Created: 55-entry master inventory with all 22 required metadata columns)
+  - `research_papers/metadata/download_summary.md` (Created: Measured counts, category distributions, integrity checks, and VIT library access requirements)
+  - `research_papers/metadata/priority_reading_list.md` (Created: Ranked priority list with contextual relevance and project gap alignment)
+  - `research_papers/00_Priority_Reading/README.md` (Created: Clean pointer index referencing top papers without redundant file duplication)
+  - `research_papers/download_logs/download_log.csv` (Created: Timestamped execution audit log)
+- **Work Actually Completed:**
+  - Established the 11-category research library directory structure under `research_papers/`.
+  - Built comprehensive 55-paper manifest cross-referencing R1–R52 with Indian fairness, legal NLP, financial benchmarks, counterfactual theory, discovery, fine-tuning, and Nemotron reports.
+  - Successfully downloaded, validated, and renamed 48 full PDF research papers (132.73 MB, 2,003 pages) from verified open-access sources (arXiv, ACL Anthology, PMLR, and Government Gazettes).
+  - Validated all PDFs with `pypdf`: checked `%PDF-` magic bytes, page-1 text extraction, zero HTML error pages, and computed SHA-256 hashes.
+  - Correctly identified and documented 2 paywalled items (Aurum ICDE 2018 and Brian Christian's book "The Alignment Problem") and 5 interactive web API specifications.
+  - Maintained complete integrity of existing FairLens source code and tests.
+- **Commands Executed:**
+  - `python -m pip install pypdf`
+  - `python scripts/paper_collector.py`
+  - `python -c "..."` (PDF validation and inventory integrity check)
+  - `powershell -ExecutionPolicy Bypass -File .\run.ps1 test`
+- **Tests Run & Outcomes:**
+  - 48/48 downloaded PDFs verified structurally with `pypdf` (2,003 pages, 132.73 MB, 0 corrupt files).
+  - 46/46 unit tests passing (100% pass rate in 22.5s).
+- **Evidence Produced:**
+  - `research_papers/metadata/paper_inventory.csv`
+  - `research_papers/metadata/download_summary.md`
+  - `research_papers/metadata/priority_reading_list.md`
+  - `research_papers/download_logs/download_log.csv`
+- **Known Failures & Limitations:**
+  - 2 publications (Aurum ICDE 2018 and The Alignment Problem) require institutional / VIT library access.
+- **Git Commit Hash:** Pending commit
+- **Push Status:** Ready to commit and push.
+

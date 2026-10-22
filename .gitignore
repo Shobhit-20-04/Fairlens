@@ -113,3 +113,6 @@ dist/
 frontend/.tmp/
 frontend/*.tsbuildinfo
 
+# Research paper PDFs (preserves metadata, CSVs, and markdown)
+research_papers/**/*.pdf
+
