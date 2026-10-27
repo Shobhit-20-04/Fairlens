@@ -17,9 +17,19 @@ D:\fairlens\research_papers\
 ├── 08_Nemotron_and_NVIDIA/               # Nemotron 3 Ultra technical reports and model cards
 ├── 09_Clinical_Triage_and_Related_Work/  # EQUITRIAGE clinical triage flip-rate methodology
 ├── 10_Other_References/                  # General LLM surveys and foundation model risks
+├── official_proof_screenshots/          # High-resolution dated visual proof from official websites
 ├── metadata/                             # Inventory CSV, reading list, and summary reports
 └── download_logs/                        # Timestamped provenance and download logs
 ```
+
+## Visual Proofs of Novelty
+
+A dedicated collection of 10 high-resolution, dated visual screenshots is maintained in `official_proof_screenshots/` with an accompanying manifest (`proof_manifest.csv` and `README.md`). These artifacts prove that:
+- Nemotron 3 Ultra is unaudited for demographic fairness with official model cards stating `Bias Mitigation: "None"`.
+- InSaAF (JURIX 2024) is confined to criminal law (IPC) on LLaMA-2 without financial regulations or dataset auditing.
+- IndiaFinBench evaluates QA accuracy without counterfactual perturbation or fairness testing.
+- Existing Indian benchmarks (Indian-BhED) test associative stereotypes rather than high-stakes allocative decision flips.
+- Major dataset search engines index metadata without representation gap scoring.
 
 ## Naming Convention
 
@@ -42,4 +52,8 @@ The pipeline is fully idempotent, resumable, and safe against duplicate download
 python scripts/paper_collector.py
 ```
 
-Existing valid PDFs are checked against their SHA-256 hashes and reused without unnecessary network downloads.
+To re-capture or update the visual evidence screenshots, execute:
+
+```powershell
+python scripts/capture_proof_screenshots.py
+```
