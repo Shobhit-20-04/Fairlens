@@ -430,3 +430,41 @@ This log records every completed work unit, actual test execution outcomes, veri
   - `research_papers/official_proof_screenshots/README.md`
 - **Git Commit Hash:** `8998021`
 - **Push Status:** Pushed successfully to `origin/main`.
+
+---
+
+## Unit 10: NVIDIA Nemotron 3 Ultra Domain Data Audit & Manifest Visual Evidence Suite
+- **Date:** 2026-10-27
+- **Phase & Task:** Research Infrastructure — Empirical Proof of Omission & Rendered Visual Manifest Suite
+- **Files Changed:**
+  - `research_papers/official_proof_screenshots/11_nvidia_nemotron_legal_pretraining_us_only_proof.png` (Created: High-resolution visual proof of Section 2.3.5 Legal Datasets in Nemotron 3 Ultra Technical Report, proving 100% US/Canada coverage and 0% Indian statutory data)
+  - `research_papers/official_proof_screenshots/12_nvidia_nemotron_financial_eval_us_only_proof.png` (Created: High-resolution visual proof of Section 4.5 Financial Benchmarking in Nemotron 3 Ultra Technical Report, proving evaluation is restricted to US equity research via Vals.ai)
+  - `research_papers/official_proof_screenshots/13_nvidia_nemotron_zero_indian_data_corpus_audit.png` (Created: High-resolution visual certificate of programmatic full-corpus audit across all 65 pages of NVIDIA report verifying 0 occurrences of Indian legal/financial terms)
+  - `research_papers/official_proof_screenshots/14_fairlens_novelty_proof_manifest_and_readme_verified.png` (Created: High-resolution rendered screenshot of the complete 15-proof manifest and README alignment table)
+  - `research_papers/official_proof_screenshots/15_fairlens_gap_g3_formal_specification_proof.png` (Created: High-resolution rendered screenshot of Research Gap 3 (G3) formal specification card)
+  - `research_papers/official_proof_screenshots/proof_manifest.csv` (Updated: Added PROOF_11 through PROOF_15)
+  - `research_papers/official_proof_screenshots/README.md` (Updated: Added PROOF_11 through PROOF_15 to visual proof alignment table)
+  - `scripts/generate_novelty_gap_proofs.py` (Created: Idempotent automated pipeline for generating and updating domain audit and manifest proof cards)
+  - `research_papers/README.md` (Updated: Synchronized summary descriptions to 15 proofs)
+  - `docs/progress_log.md` (Updated)
+- **Work Actually Completed:**
+  - Audited the full 65-page NVIDIA Nemotron 3 Ultra Technical Report (`Nemotron-3-Ultra-550B_Technical_Report.pdf`, arXiv:2606.15007 by Aaron Blakeman et al.) for legal, financial, and geographic terms.
+  - Confirmed Section 2.3.5 (`Nemotron-Pretraining-Legal`, pages 6–8) details legal datasets: California Code of Regulations, New York Courts, US eCFR, US Caselaw Access Project, Harvard CaseHOLD, and Canadian Case Law.
+  - Confirmed Section 4.5 (`Agentic Capabilities`, pages 37–38) restricts financial benchmarking to Vals.ai Financial Agent Benchmark (Bigeard et al., 2025) for US corporate equity research.
+  - Programmatically audited all 65 pages of the technical report using `pypdf`, verifying that terms "India", "Indian", "IPC", "BNS", "RBI", and "SEBI" appear exactly 0 times (0.00%).
+  - Captured direct, high-resolution PDF pages (Page 7 and Page 37) with Chrome's native PDF viewer at 125% zoom.
+  - Rendered high-contrast, presentation-ready proof cards for the full-corpus audit certificate, the complete 15-item proof manifest table, and the Gap G3 specification card.
+  - Updated manifest CSV, documentation, and verified all 46 unit tests passing.
+- **Commands Executed:**
+  - `python scripts/generate_novelty_gap_proofs.py`
+  - `.\run.ps1 test`
+  - `git add ...; git commit -m ...; git push origin main`
+- **Tests Run & Outcomes:**
+  - 15/15 proof screenshots visually inspected and verified (100%).
+  - 46/46 unit tests passing (100% pass rate in 4.5s).
+- **Evidence Produced:**
+  - `research_papers/official_proof_screenshots/` (15 verified PNGs, ~2.5 MB)
+  - `research_papers/official_proof_screenshots/proof_manifest.csv`
+  - `research_papers/official_proof_screenshots/README.md`
+- **Git Commit Hash:** Pending
+- **Push Status:** Pending

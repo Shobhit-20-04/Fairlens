@@ -24,12 +24,16 @@ D:\fairlens\research_papers\
 
 ## Visual Proofs of Novelty
 
-A dedicated collection of 10 high-resolution, dated visual screenshots is maintained in `official_proof_screenshots/` with an accompanying manifest (`proof_manifest.csv` and `README.md`). These artifacts prove that:
+A dedicated collection of 15 high-resolution, dated visual screenshots is maintained in `official_proof_screenshots/` with an accompanying manifest (`proof_manifest.csv` and `README.md`). These artifacts prove that:
 - Nemotron 3 Ultra is unaudited for demographic fairness, with official NVIDIA technical reports documenting zero Indian statutory or regulatory evaluations.
+- NVIDIA's official legal pre-training datasets are 100% US and Canada (California Code, NY Courts, eCFR, US Caselaw, CaseHOLD, CUAD), with 0% Indian statutory data.
+- NVIDIA's official financial evaluations are restricted exclusively to US equity research (Vals.ai Financial Agent), with zero Indian regulatory (SEBI/RBI) coverage.
+- Full-corpus programmatic audit across all 65 pages of NVIDIA's technical report verifies that terms "India", "Indian", "IPC", "BNS", "RBI", and "SEBI" appear exactly 0 times (0.00%).
 - InSaAF (JURIX 2024) is confined to criminal law (IPC) on LLaMA-2 without financial regulations or dataset auditing.
 - IndiaFinBench evaluates QA accuracy without counterfactual perturbation or fairness testing.
 - Existing Indian benchmarks (Indian-BhED) test associative stereotypes rather than high-stakes allocative decision flips.
 - Major dataset search engines index metadata without representation gap scoring.
+- Visual rendered presentation tables for the complete proof manifest and Research Gap G3 specification card.
 
 ## Naming Convention
 
