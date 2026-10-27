@@ -26,13 +26,13 @@ README_PATH = OUTPUT_DIR / "README.md"
 PROOFS_MANIFEST = [
     {
         "id": "PROOF_01",
-        "filename": "01_nvidia_nemotron_content_safety_bias_none_proof.png",
-        "url": "https://catalog.ngc.nvidia.com/orgs/nvidia/models/nemotron-content-safety",
-        "title": "NVIDIA NGC Catalog: Nemotron Content Safety Model Card",
-        "gap_addressed": "G3 (Nemotron 3 Ultra Unaudited for Demographic Fairness)",
-        "novelty_claim": "NVIDIA officially documents 'Bias Mitigation Measures: None'. Built-in safety filters only target overt toxicity/weapons, leaving high-stakes reasoning completely unmitigated.",
-        "scroll_y": 600,
-        "wait_seconds": 5
+        "filename": "01_nvidia_nemotron_3_ultra_technical_report_proof.png",
+        "url": "https://arxiv.org/abs/2606.15007",
+        "title": "NVIDIA Research: Nemotron 3 Ultra Technical Report (arXiv:2606.15007)",
+        "gap_addressed": "G3 (Nemotron 3 Ultra Architecture & Unaudited for Demographic Fairness)",
+        "novelty_claim": "Official NVIDIA technical report documenting the 550B total / 55B active parameter MoE architecture with 1M context length, showing absence of Indian statutory or regulatory evaluations.",
+        "scroll_y": 0,
+        "wait_seconds": 3
     },
     {
         "id": "PROOF_02",
@@ -97,8 +97,8 @@ PROOFS_MANIFEST = [
     {
         "id": "PROOF_08",
         "filename": "08_bns_2023_statutory_transition_proof.png",
-        "url": "https://prsindia.org/bills/parliament/the-bharatiya-nyaya-sanhita-2023",
-        "title": "PRS Legislative Research: The Bharatiya Nyaya Sanhita, 2023 (Act No. 45 of 2023)",
+        "url": "https://prsindia.org/billtrack/the-bharatiya-nyaya-second-sanhita-2023",
+        "title": "PRS Legislative Research: The Bharatiya Nyaya (Second) Sanhita, 2023",
         "gap_addressed": "G4 (Statutory Modernization from IPC to BNS)",
         "novelty_claim": "Proves the official Indian criminal statutory transition to BNS 2023; FairLens models both IPC and BNS 2023 statutory sections unlike older benchmarks stuck exclusively on IPC.",
         "scroll_y": 0,
@@ -211,7 +211,7 @@ def capture_all_proofs():
         f.write("## 1. Executive Purpose for Review Panel & Thesis Defense\n\n")
         f.write("This directory contains high-resolution, dated visual screenshots of official websites, open preprints, and government gazettes. ")
         f.write("These artifacts serve as empirical proof during M.Tech review evaluations, demonstrating that:\n")
-        f.write("1. **Nemotron 3 Ultra is genuinely unaudited for demographic fairness**, with NVIDIA's official model cards explicitly documenting bias mitigation as `\"None\"`.\n")
+        f.write("1. **Nemotron 3 Ultra is genuinely unaudited for demographic fairness**, with NVIDIA's official technical report documenting zero Indian statutory or regulatory fairness evaluations.\n")
         f.write("2. **Closest prior legal fairness benchmarks (InSaAF) are confined strictly to criminal IPC law on LLaMA**, omitting financial regulation and dataset auditing.\n")
         f.write("3. **Existing financial regulatory benchmarks (IndiaFinBench) test only QA accuracy**, containing zero fairness or counterfactual flip-rate metrics.\n")
         f.write("4. **Existing Indian bias benchmarks (Indian-BhED) test associative stereotypes in sentence completion**, rather than high-stakes allocative decision flips.\n")

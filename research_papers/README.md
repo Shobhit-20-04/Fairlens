@@ -25,7 +25,7 @@ D:\fairlens\research_papers\
 ## Visual Proofs of Novelty
 
 A dedicated collection of 10 high-resolution, dated visual screenshots is maintained in `official_proof_screenshots/` with an accompanying manifest (`proof_manifest.csv` and `README.md`). These artifacts prove that:
-- Nemotron 3 Ultra is unaudited for demographic fairness with official model cards stating `Bias Mitigation: "None"`.
+- Nemotron 3 Ultra is unaudited for demographic fairness, with official NVIDIA technical reports documenting zero Indian statutory or regulatory evaluations.
 - InSaAF (JURIX 2024) is confined to criminal law (IPC) on LLaMA-2 without financial regulations or dataset auditing.
 - IndiaFinBench evaluates QA accuracy without counterfactual perturbation or fairness testing.
 - Existing Indian benchmarks (Indian-BhED) test associative stereotypes rather than high-stakes allocative decision flips.

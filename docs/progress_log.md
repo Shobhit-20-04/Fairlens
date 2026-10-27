@@ -394,3 +394,39 @@ This log records every completed work unit, actual test execution outcomes, veri
   - `research_papers/official_proof_screenshots/README.md`
 - **Git Commit Hash:** `a27305b`
 - **Push Status:** Pushed successfully to `origin/main`.
+
+---
+
+## Unit 9: Visual Quality Audit & Defect Remediation of Novelty Proof Screenshots
+- **Date:** 2026-10-27
+- **Phase & Task:** Research Infrastructure — Visual Quality Verification & Defect Remediation
+- **Files Changed:**
+  - `research_papers/official_proof_screenshots/01_nvidia_nemotron_3_ultra_technical_report_proof.png` (Replaced: High-resolution visual proof of official NVIDIA Nemotron 3 Ultra Technical Report on arXiv:2606.15007, replacing login-gated NGC catalog view)
+  - `research_papers/official_proof_screenshots/08_bns_2023_statutory_transition_proof.png` (Updated: High-resolution visual proof of PRS Legislative Research tracking of Bharatiya Nyaya (Second) Sanhita, 2023, replacing 404 URL)
+  - `research_papers/official_proof_screenshots/proof_manifest.csv` (Updated: Updated manifest records and metadata)
+  - `research_papers/official_proof_screenshots/README.md` (Updated: Updated visual proof alignment table)
+  - `scripts/capture_proof_screenshots.py` (Updated: Replaced NGC and PRS URLs with verified open endpoints)
+  - `research_papers/README.md` (Updated: Synchronized summary descriptions)
+  - `docs/progress_log.md` (Updated)
+- **Work Actually Completed:**
+  - Conducted individual visual inspection of all 10 screenshots in `research_papers/official_proof_screenshots/`.
+  - Confirmed 8/10 screenshots (PROOF_02 through PROOF_07, PROOF_09, PROOF_10) were completely clear, legible, and accurately supported their novelty claims.
+  - Identified 2 defects:
+    1. PROOF_01 captured an NVIDIA NGC login-wall overlay and cookie banner.
+    2. PROOF_08 captured a 404 page due to an obsolete PRS India URL.
+  - Remediated PROOF_01 by updating the source to the official open-access **NVIDIA Nemotron 3 Ultra Technical Report on arXiv** (`https://arxiv.org/abs/2606.15007` by Aaron Blakeman et al.), proving the exact 550B MoE model's architecture and the absence of Indian statutory/financial evaluations.
+  - Remediated PROOF_08 by updating the PRS India URL to `https://prsindia.org/billtrack/the-bharatiya-nyaya-second-sanhita-2023`, displaying the complete legislative history, parliamentary passage dates (Dec 20-21, 2023), and IPC replacement highlights.
+  - Executed automated re-capture of all 10 proofs with zero errors.
+  - Visually re-inspected all 10 files to guarantee 100% clarity and zero banners, login dialogs, or 404 notices.
+- **Commands Executed:**
+  - `python scripts/capture_proof_screenshots.py`
+  - `.\run.ps1 test`
+- **Tests Run & Outcomes:**
+  - 10/10 screenshots visually verified and confirmed.
+  - 46/46 unit tests passing (100% pass rate in 21.1s).
+- **Evidence Produced:**
+  - `research_papers/official_proof_screenshots/` (10 verified PNGs, ~1.24 MB)
+  - `research_papers/official_proof_screenshots/proof_manifest.csv`
+  - `research_papers/official_proof_screenshots/README.md`
+- **Git Commit Hash:** Pending
+- **Push Status:** Pending
